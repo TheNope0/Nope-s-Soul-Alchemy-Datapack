@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "prohibition": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "armor.chest": {
+                    "items": "minecraft:netherite_chestplate"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "prohibition"
+      ]
+    ],
+    "rewards": {
+      "function": "nope_runes:prohibitions/nether_chest"
+    }
+  }

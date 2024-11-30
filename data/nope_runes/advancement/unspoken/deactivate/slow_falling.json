@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "effects": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:slow_falling": {}
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "effects"
+      ]
+    ],
+    "rewards": {
+      "function": "nope_runes:effect_change/deactivate/positive/slow_falling"
+    }
+  }
+  

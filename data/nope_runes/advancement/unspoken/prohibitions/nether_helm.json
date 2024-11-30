@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "prohibition": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "armor.head": {
+                    "items": "minecraft:netherite_helmet"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "prohibition"
+      ]
+    ],
+    "rewards": {
+      "function": "nope_runes:prohibitions/nether_helm"
+    }
+  }

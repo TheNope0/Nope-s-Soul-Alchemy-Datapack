@@ -1,0 +1,26 @@
+
+scoreboard objectives remove npe_deaths
+scoreboard objectives remove npe_absorption_refresh
+
+scoreboard objectives remove npe_difficulty
+scoreboard objectives remove npe_is_opped
+scoreboard objectives remove npe_is_multiplayer
+
+scoreboard objectives remove npe_soul_points
+scoreboard objectives remove npe_changed_stat
+
+scoreboard objectives remove npe_current_hearts
+scoreboard objectives remove npe_current_absorption
+scoreboard objectives remove npe_current_armor
+scoreboard objectives remove npe_current_armor_toughness
+
+scoreboard objectives remove npe_current_move_speed
+scoreboard objectives remove npe_current_jump_boost
+
+scoreboard objectives remove npe_current_damage
+scoreboard objectives remove npe_current_kb_resistance
+scoreboard objectives remove npe_current_player_reach
+
+scoreboard objectives remove npe_current_underwater
+scoreboard objectives remove npe_current_height
+scoreboard objectives remove npe_current_luck

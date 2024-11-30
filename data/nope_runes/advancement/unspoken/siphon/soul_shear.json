@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "shears"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "soul_shears":1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "nope_runes:xp_siphon/soul_shearing"
+    }
+}

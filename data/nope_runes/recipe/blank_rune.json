@@ -1,0 +1,27 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "SiS",
+        "imi",
+        "SiS"
+    ],
+    "key": {
+        "S": "minecraft:stone",
+        "i": "minecraft:iron_nugget",
+        "m": "#nope_runes:common_mob_drops"
+    },
+    "result": {
+        "count": 3,
+        "id": "paper",
+        "components": {
+            "max_stack_size": 16,
+            "rarity": "common",
+            "item_name": "{\"translate\": \"nopes_runes.item.runes.blank_rune\",\"fallback\": \"Blank Rune\"}",
+            "custom_model_data": 7843400,
+            "custom_data": {
+                "blank_rune":1
+            }
+        }
+    }
+}

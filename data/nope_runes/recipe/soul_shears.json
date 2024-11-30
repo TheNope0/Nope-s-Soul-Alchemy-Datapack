@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "Gba",
+        "bSB",
+        "aBE"
+    ],
+    "key": {
+        "B": "bone",
+        "S": "shears",
+        "E": "echo_shard",
+        "G": "ghast_tear",
+        "b": "blaze_powder",
+        "a": "armadillo_scute"
+    },
+    "result": {
+        "count": 1,
+        "id": "shears",
+        "components": {
+            "max_stack_size": 1,
+            "rarity": "rare",
+            "item_name": "{\"translate\": \"nopes_runes.item.soul_shears\",\"fallback\": \"Soul Shears\"}",
+            "custom_model_data": 7843400,
+            "food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true
+            },
+            "consumable": {
+                "consume_seconds": 2147483647,
+                "has_consume_particles": false
+            },
+            "custom_data": {
+                "soul_shears":1
+            },
+            "max_damage": 1428
+        }
+    }
+}

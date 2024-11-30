@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "book"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "advanced_xp_siphon":1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "nope_runes:xp_siphon/advanced"
+    }
+}
