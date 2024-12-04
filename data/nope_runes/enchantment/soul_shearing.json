@@ -1,0 +1,74 @@
+{
+    "description": {
+      "translate": "enchantment.nope_runes.soul_shearing",
+      "color": "yellow"
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "minecraft:shears",
+    "max_level": 1,
+    "anvil_cost": 12,
+    "min_cost": {
+      "base": 15,
+      "per_level_above_first": 0
+    },
+    "max_cost": {
+      "base": 65,
+      "per_level_above_first": 0
+    },
+    "effects": {
+      "minecraft:item_damage": [
+        {
+          "effect": {
+            "type": "add",
+            "value": 50
+          },
+          "requirements": {
+            "condition": "inverted",
+            "term": {
+              "condition": "match_tool",
+              "predicate": {
+                "items": [
+                    "shears"
+                ],
+                "components": {
+                  "custom_data": {
+                    "soul_shears":1
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "effect": {
+            "type": "add",
+            "value": 4
+          },
+          "requirements": {
+            "condition": "match_tool",
+            "predicate": {
+              "items": [
+                  "shears"
+              ],
+              "components": {
+                "custom_data": {
+                  "soul_shears":1
+                }
+              }
+            }
+          }
+        }
+      ],
+      "tick": [
+        {
+          "effect": {
+            "type": "run_function",
+            "function": "nope_runes:xp_siphon/soul_shearing_from_enchantment"
+          }
+        }
+      ]
+    },
+    "weight": 1
+  }
