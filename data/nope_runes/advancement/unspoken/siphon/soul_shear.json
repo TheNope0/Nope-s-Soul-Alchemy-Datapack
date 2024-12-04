@@ -9,7 +9,7 @@
                     ],
                     "components": {
                         "custom_data": {
-                            "soul_shears":1
+                            "has_soul_shearing_enchant":1
                         }
                     }
                 }
