@@ -28,10 +28,10 @@
           "requirements": {
             "condition": "inverted",
             "term": {
-              "condition": "match_tool",
+              "condition": "minecraft:match_tool",
               "predicate": {
                 "items": [
-                    "shears"
+                    "minecraft:shears"
                 ],
                 "components": {
                   "custom_data": {
