@@ -15,6 +15,8 @@ scoreboard objectives add npe_xp_large_cooldown dummy
 scoreboard objectives add npe_soul_shears_cooldown dummy
 scoreboard objectives add npe_soul_shard_cooldown dummy
 
+scoreboard objectives add npe_ultra_dummy dummy
+
 
 
 scoreboard objectives add npe_difficulty trigger "Current Difficulty"

@@ -5,11 +5,11 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "shears"
+                        "minecraft:shears"
                     ],
                     "components": {
-                        "custom_data": {
-                            "has_soul_shearing_enchant":1
+                        "minecraft:custom_data": {
+                            "has_soul_shearing_enchant": 1
                         }
                     }
                 }

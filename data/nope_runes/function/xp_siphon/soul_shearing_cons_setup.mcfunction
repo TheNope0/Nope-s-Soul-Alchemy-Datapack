@@ -1,1 +1,4 @@
-item modify entity @s weapon.mainhand {function:"set_components",components:{consumable:{consume_seconds:2147483647,has_consume_particles:false,animation:"bow"},custom_data:{"has_soul_shearing_enchant":1}}}
+item modify entity @s weapon.mainhand nope_runes:soul_shearing_enchant
+##title @s actionbar {"entity":"@s","nbt":"SelectedItem.components.\"minecraft:custom_data\""}
+say hi
+
