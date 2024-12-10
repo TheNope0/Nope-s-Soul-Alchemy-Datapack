@@ -1,6 +1,6 @@
-execute if score $MULTIPLAYER?$ npe_is_multiplayer matches 0 as @p run scoreboard players enable @s npe_difficulty
+execute if score .MULTIPLAYER?. npe_is_multiplayer matches 0 as @p run scoreboard players enable @s npe_difficulty
 
-execute if score $MULTIPLAYER?$ npe_is_multiplayer matches 1 as @a if score @s npe_is_opped matches 1 run scoreboard players enable @s npe_difficulty
+execute if score .MULTIPLAYER?. npe_is_multiplayer matches 1 as @a if score @s npe_is_opped matches 1 run scoreboard players enable @s npe_difficulty
 
 
 execute as @a[scores={npe_current_absorption=1..}] run scoreboard players add @s npe_absorption_refresh 1
