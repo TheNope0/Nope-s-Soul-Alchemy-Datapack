@@ -7,7 +7,7 @@
                     "items": [
                         "minecraft:shears"
                     ],
-                    "components": {
+                    "predicates": {
                         "minecraft:custom_data": {
                             "has_soul_shearing_enchant": 1
                         }

@@ -20,31 +20,104 @@
   },
   "effects": {
     "minecraft:tick": [
+      
       {
         "requirements": [
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:shears",
-                    "components": {
-                      "custom_data": {
-                        "has_soul_shearing_enchant": 1
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "items": "minecraft:shears",
+                        "components": {
+                          "custom_data": {
+                            "has_soul_shearing_enchant": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "items": "minecraft:shears",
+                        "predicates": {
+                          "custom_data": {
+                            "soul_shears":1
+                          }
+                        }
                       }
                     }
                   }
                 }
               }
-            }
+            ]
           }
         ],
         "effect": {
           "type": "run_function",
-          "function": "nope_runes:xp_siphon/soul_shearing_cons_setup"
+          "function": "nope_runes:xp_siphon/soul_shearing_cons_setup_v"
+        }
+      },
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "items": "minecraft:shears",
+                        "components": {
+                          "custom_data": {
+                            "has_soul_shearing_enchant": 1
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:shears",
+                      "components": {
+                        "custom_data": {
+                          "soul_shears":1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "nope_runes:xp_siphon/soul_shearing_cons_setup_s"
         }
       }
     ]
