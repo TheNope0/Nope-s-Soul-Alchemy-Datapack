@@ -1,7 +1,7 @@
 execute if score @s npe_current_height matches ..0 run return run tellraw @s {"text": "You are at the minimum allowed for this stat!","color": "red"}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"\uEE09","font": "nope_runes:chat_mojo"},{"text":"-1 ","color": "red"}]
+tellraw @s [{"text":"-1 ","color": "red"},{"text":"\uEE09","font": "nope_runes:chat_mojo","color": "white"}]
 scoreboard players add @s npe_soul_points 1
 scoreboard players set @s npe_changed_stat 1
 

@@ -1,7 +1,7 @@
 execute if score @s npe_current_height matches ..-5 run return run tellraw @s {"text": "You are at the minimum height allowed!","color": "red"}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"\uEE0B","font": "nope_runes:chat_mojo"},{"text":"-1% ","color": "red"}]
+tellraw @s [{"text":"-1% ","color": "red"},{"text":"\uEE0B","font": "nope_runes:chat_mojo","color": "white"}]
 scoreboard players set @s npe_changed_stat 1
 
 
