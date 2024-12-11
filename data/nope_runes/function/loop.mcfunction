@@ -27,3 +27,6 @@ execute as @a[scores={npe_soul_shears_cooldown=1}] run advancement revoke @s onl
 
 execute as @a[scores={npe_soul_shard_cooldown=1..}] run scoreboard players remove @s npe_soul_shard_cooldown 1
 execute as @a[scores={npe_soul_shard_cooldown=1}] run advancement revoke @s only nope_runes:unspoken/siphon/soul_shard
+
+execute at @a[scores={npe_spawner_check=1..}] run function nope_runes:advanced_silk_touch/spawner/block_check
+scoreboard players remove @a[scores={npe_spawner_check=1..}] npe_spawner_check 1

@@ -33,8 +33,23 @@
               },
               "ops": [
                 {
-                  "source": "SpawnData.entity",
-                  "target": "entity",
+                  "source": "SpawnData",
+                  "target": "spawner_data.SpawnData",
+                  "op": "replace"
+                },
+                {
+                  "source": "SpawnPotentials",
+                  "target": "spawner_data.SpawnPotentials",
+                  "op": "replace"
+                },
+                {
+                  "source": "MaxSpawnDelay",
+                  "target": "spawner_data.MaxSpawnDelay",
+                  "op": "replace"
+                },
+                {
+                  "source": "MinSpawnDelay",
+                  "target": "spawner_data.MinSpawnDelay",
                   "op": "replace"
                 }
               ]
