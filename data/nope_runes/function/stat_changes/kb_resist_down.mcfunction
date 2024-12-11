@@ -1,7 +1,7 @@
 execute if score @s npe_current_kb_resistance matches ..0 run return run tellraw @s {"text": "You cannot remove any more Knockback Resistance!","color": "red"}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"-10% ","color": "red"},{"text":":knockback_resistance:"}]
+tellraw @s [{"text":"\uEE08","font": "nope_runes:chat_mojo"},{"text":"-10% ","color": "red"}]
 scoreboard players add @s npe_soul_points 2
 scoreboard players set @s npe_changed_stat 1
 

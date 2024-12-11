@@ -2,7 +2,7 @@ execute if score @s npe_current_armor matches 10.. run return run tellraw @s {"t
 execute unless score @s npe_soul_points matches 3.. run return run tellraw @s {"text": "You do not have enough soul points to increase this stat!","color": "red"}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"+1 ","color": "dark_green"},{"text":":armor:"}]
+tellraw @s [{"text":"\uEE05","font": "nope_runes:chat_mojo"},{"text":"+1 ","color": "dark_green"}]
 scoreboard players remove @s npe_soul_points 3
 scoreboard players set @s npe_changed_stat 1
 

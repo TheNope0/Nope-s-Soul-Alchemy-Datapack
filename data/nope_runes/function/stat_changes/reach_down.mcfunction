@@ -1,7 +1,7 @@
 execute if score @s npe_current_player_reach matches ..-2 run return run tellraw @s {"text": "Your arms cannot decrease this stat any further!","color": "red"}
 
 playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"-1 ","color": "red"},{"text":":reach:"}]
+tellraw @s [{"text":"\uEE07","font": "nope_runes:chat_mojo"},{"text":"-1 ","color": "red"}]
 scoreboard players add @s npe_soul_points 5
 scoreboard players set @s npe_changed_stat 1
 
