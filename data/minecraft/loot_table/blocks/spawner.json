@@ -23,7 +23,38 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner"
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": {
+                "type": "minecraft:context",
+                "target": "block_entity"
+              },
+              "ops": [
+                {
+                  "source": "SpawnData",
+                  "target": "spawner_data.SpawnData",
+                  "op": "replace"
+                },
+                {
+                  "source": "SpawnPotentials",
+                  "target": "spawner_data.SpawnPotentials",
+                  "op": "replace"
+                },
+                {
+                  "source": "MaxSpawnDelay",
+                  "target": "spawner_data.MaxSpawnDelay",
+                  "op": "replace"
+                },
+                {
+                  "source": "MinSpawnDelay",
+                  "target": "spawner_data.MinSpawnDelay",
+                  "op": "replace"
+                }
+              ]
+            }
+          ]
         }
       ],
       "rolls": 1.0

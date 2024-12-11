@@ -1,0 +1,68 @@
+{
+  "weight": 1,
+  "description": {
+    "translate": "enchantment.nope_runes.reinforced_wings"
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "exclusive_set": "#nope_runes:exclusive_set/elytra_reinforced",
+  "max_level": 3,
+  "anvil_cost": 12,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "effects": {
+    "attributes": [
+        {
+            "attribute": "armor",
+            "amount": {
+                "type": "linear",
+                "base": 2,
+                "per_level_above_first": 1
+            },
+            "id": "nope_runes:enchantment.reinforced_wings",
+            "operation": "add_value"
+        },
+        {
+            "attribute": "armor_toughness",
+            "amount": {
+                "type": "linear",
+                "base": 0,
+                "per_level_above_first": 0.5
+            },
+            "id": "nope_runes:enchantment.reinforced_wings",
+            "operation": "add_value"
+        }
+    ],
+    "damage_protection": [
+        {
+            "effect": {
+                "type": "add",
+                "value": {
+                    "type": "linear",
+                    "base": 0,
+                    "per_level_above_first": 0.5
+                }
+            },
+            "requirements": {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "minecraft:bypasses_invulnerability",
+                    "expected": false
+                  }
+                ]
+              }
+            }
+        }
+    ]
+  }
+}

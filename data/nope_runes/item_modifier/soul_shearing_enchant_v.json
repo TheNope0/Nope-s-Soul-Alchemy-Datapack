@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "consumable": {
+        "consume_seconds": 2147483647,
+        "animation": "bow",
+        "has_consume_particles": false
+      },
+      "custom_data": {
+        "has_soul_shearing_enchant": 1
+      }
+    }
+  }
+]

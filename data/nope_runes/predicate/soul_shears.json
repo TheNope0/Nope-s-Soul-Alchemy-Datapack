@@ -1,0 +1,17 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.mainhand": {
+                "items": "shears",
+                "components": {
+                    "custom_data": {
+                        "has_soul_shearing_enchant": 1,
+                        "soul_shears":1
+                    }
+                }
+            }
+        }
+    }
+}
