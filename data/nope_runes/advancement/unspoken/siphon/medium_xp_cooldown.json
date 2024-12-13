@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "nope_runes:xp_siphon/medium_xp_cooldown"
+    }
+}

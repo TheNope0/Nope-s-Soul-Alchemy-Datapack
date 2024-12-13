@@ -1,7 +1,9 @@
-scoreboard players add @s npe_soul_shears_cooldown 15
+scoreboard players set @s npe_soul_shears_cooldown 15
 
-execute unless score @s npe_soul_points matches 1.. run scoreboard players add @s npe_soul_shears_cooldown 145
-execute unless score @s npe_soul_points matches 1.. run return run tellraw @s "You do not have enough SP!"
+advancement revoke @s only nope_runes:unspoken/siphon/soul_shear_cooldown
+
+scoreboard players add @s[scores={npe_soul_points=0}] npe_soul_shears_cooldown 145
+return run tellraw @s[scores={npe_soul_points=0}] "You do not have enough SP!"
 
 execute unless predicate nope_runes:soul_shears run item modify entity @s weapon.mainhand {function:"set_damage",damage:-0.26,add:true}
 execute if predicate nope_runes:soul_shears run item modify entity @s weapon.mainhand {function:"set_damage",damage:-0.004,add:true}
