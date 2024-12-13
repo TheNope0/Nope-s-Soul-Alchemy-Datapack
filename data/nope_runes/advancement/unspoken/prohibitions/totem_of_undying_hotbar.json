@@ -10,7 +10,7 @@
               "predicate": {
                 "slots": {
                   "hotbar.*": {
-                    "items": "minecraft:totem_of_undying"
+                    "items": "#nope_runes:totems"
                   }
                 }
               }

@@ -10,7 +10,7 @@
               "predicate": {
                 "slots": {
                   "weapon.offhand": {
-                    "items": "minecraft:totem_of_undying"
+                    "items": "#nope_runes:totems"
                   }
                 }
               }
