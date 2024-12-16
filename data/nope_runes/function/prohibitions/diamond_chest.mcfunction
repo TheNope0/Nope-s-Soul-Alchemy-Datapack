@@ -1,5 +1,0 @@
-execute if items entity @s armor.chest diamond_chestplate if data entity @s {Tags:["prohibit_armor_2"]} run item modify entity @s armor.chest {function:"minecraft:set_attributes",modifiers:[{"id": "prohibition_move_speed_chest","attribute": "minecraft:movement_speed","amount": -0.20,"operation": "add_multiplied_base","slot": "chest"},{"id": "prohibition_attack_speed_chest","attribute": "minecraft:attack_speed","amount": -0.09,"operation": "add_multiplied_base","slot": "chest"}],"replace": false}
-
-execute if items entity @s armor.chest diamond_chestplate unless data entity @s {Tags:["prohibit_armor_2"]} run item modify entity @s armor.chest {function:"minecraft:set_attributes",modifiers:[{"id": "prohibition_move_speed_chest","attribute": "minecraft:movement_speed","amount": 0,"operation": "add_multiplied_base","slot": "chest"},{"id": "prohibition_attack_speed_chest","attribute": "minecraft:attack_speed","amount": 0,"operation": "add_multiplied_base","slot": "chest"}],"replace": false}
-
-advancement revoke @s only nope_runes:unspoken/prohibitions/diamond_chest

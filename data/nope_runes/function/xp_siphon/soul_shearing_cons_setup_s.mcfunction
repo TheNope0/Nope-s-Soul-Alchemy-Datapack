@@ -1,1 +1,0 @@
-item modify entity @s weapon.mainhand nope_runes:soul_shearing_enchant_s

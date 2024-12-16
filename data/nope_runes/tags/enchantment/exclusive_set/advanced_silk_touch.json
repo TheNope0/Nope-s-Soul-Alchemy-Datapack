@@ -1,9 +1,0 @@
-{
-  "values": [
-    "minecraft:fortune",
-    "minecraft:silk_touch",
-	  "minecraft:unbreaking",
-	  "minecraft:mending",
-    "nope_runes:advanced_silk_touch"
-  ]
-}

@@ -1,1 +1,0 @@
-scoreboard players add @s npe_half_a_point 1
