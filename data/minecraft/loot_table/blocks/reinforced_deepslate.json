@@ -10,7 +10,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "nope_runes:advanced_silk_touch",
+                  "enchantments": "soul_alchemy:advanced_silk_touch",
                   "levels": {
                     "min": 1
                   }
