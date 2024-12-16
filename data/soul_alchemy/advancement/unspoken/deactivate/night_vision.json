@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "effects": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:night_vision": {}
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "effects"
+      ]
+    ],
+    "rewards": {
+      "function": "soul_alchemy:effect_change/deactivate/positive/night_vision"
+    }
+  }
+  

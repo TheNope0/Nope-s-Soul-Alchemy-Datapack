@@ -1,0 +1,40 @@
+execute if score @s npe_current_kb_resistance matches 5.. run return run tellraw @s {"text": "You already have the maximum amount for this stat!","color": "red"}
+execute unless score @s npe_soul_points matches 2.. run return run tellraw @s {"text": "You do not have enough soul points to increase this stat!","color": "red"}
+
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+tellraw @s [{"text":"+10% ","color": "dark_green"},{"text":"\uEE08","font": "soul_alchemy:chat_mojo","color": "white"}]
+scoreboard players remove @s npe_soul_points 2
+scoreboard players set @s npe_changed_stat 1
+
+
+
+
+
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 0 run attribute @s knockback_resistance base set 0.1
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 0 run attribute @s explosion_knockback_resistance base set 0.05
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 0 run scoreboard players set @s npe_changed_stat 0
+execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_kb_resistance 1
+
+
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 1 run attribute @s knockback_resistance base set 0.2
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 1 run attribute @s explosion_knockback_resistance base set 0.1
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 1 run scoreboard players set @s npe_changed_stat 0
+execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_kb_resistance 2
+
+
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 2 run attribute @s knockback_resistance base set 0.3
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 2 run attribute @s explosion_knockback_resistance base set 0.15
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 2 run scoreboard players set @s npe_changed_stat 0
+execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_kb_resistance 3
+
+
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 3 run attribute @s knockback_resistance base set 0.4
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 3 run attribute @s explosion_knockback_resistance base set 0.2
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 3 run scoreboard players set @s npe_changed_stat 0
+execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_kb_resistance 4
+
+
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 4 run attribute @s knockback_resistance base set 0.5
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 4 run attribute @s explosion_knockback_resistance base set 0.25
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_kb_resistance matches 4 run scoreboard players set @s npe_changed_stat 0
+execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_kb_resistance 5

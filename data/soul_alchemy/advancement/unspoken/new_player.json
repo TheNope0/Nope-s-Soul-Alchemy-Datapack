@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "new_player": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "new_player"
+    ]
+  ],
+  "rewards": {
+    "function": "soul_alchemy:new_player"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "rig",
+        "lsa",
+        "iei"
+    ],
+    "key": {
+        "e": "enchanting_table",
+        "s": "stonecutter",
+        "i": "iron_ingot",
+        "r": "redstone",
+        "g": "glowstone_dust",
+        "l": "lapis_lazuli",
+        "a": "amethyst_shard"
+    },
+    "result": {
+        "count": 1,
+        "id": "armor_stand",
+        "components": {
+            "max_stack_size": 64,
+            "rarity": "uncommon",
+            "item_name": "{\"translate\": \"nopes_runes.block.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
+            "custom_model_data": 7843400,
+            "custom_data": {
+                "soul_infuser":1
+            }
+        }
+    }
+}

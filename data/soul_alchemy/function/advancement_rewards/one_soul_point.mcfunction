@@ -1,0 +1,1 @@
+scoreboard players add @s npe_soul_points 1

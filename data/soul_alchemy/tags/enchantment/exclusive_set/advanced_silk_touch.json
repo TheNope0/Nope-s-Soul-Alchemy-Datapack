@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:fortune",
+    "minecraft:silk_touch",
+	  "minecraft:unbreaking",
+	  "minecraft:mending",
+    "soul_alchemy:advanced_silk_touch"
+  ]
+}

@@ -1,0 +1,1 @@
+item modify entity @s weapon.mainhand soul_alchemy:soul_shearing_enchant_s

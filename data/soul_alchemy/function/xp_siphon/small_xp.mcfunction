@@ -1,0 +1,6 @@
+scoreboard players set @s npe_xp_small_cooldown 5
+
+xp add @s 160
+clear @s book[minecraft:custom_data={small_xp_hold:1b}] 1
+
+advancement revoke @s only soul_alchemy:unspoken/siphon/small_xp_cooldown

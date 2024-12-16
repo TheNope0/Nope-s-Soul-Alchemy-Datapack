@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:shears"
+                    ],
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "has_soul_shearing_enchant": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/soul_shearing"
+    }
+}

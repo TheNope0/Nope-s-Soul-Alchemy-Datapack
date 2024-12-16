@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "rotten_flesh"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "soul_shard": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/soul_shard_point"
+    }
+}

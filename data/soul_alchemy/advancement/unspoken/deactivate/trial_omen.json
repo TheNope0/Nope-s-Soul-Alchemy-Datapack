@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "effects": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:trial_omen": {}
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "effects"
+      ]
+    ],
+    "rewards": {
+      "function": "soul_alchemy:effect_change/deactivate/negative/trial_omen"
+    }
+  }
+  

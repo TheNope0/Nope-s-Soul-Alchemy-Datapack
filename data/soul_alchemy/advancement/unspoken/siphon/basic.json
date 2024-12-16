@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "book"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "basic_xp_siphon":1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/basic"
+    }
+}

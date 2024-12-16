@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "effects": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:strength": {}
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "effects"
+      ]
+    ],
+    "rewards": {
+      "function": "soul_alchemy:effect_change/deactivate/positive/strength"
+    }
+  }
+  
