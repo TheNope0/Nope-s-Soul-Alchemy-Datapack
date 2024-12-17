@@ -69,7 +69,7 @@
         ],
         "effect": {
           "type": "run_function",
-          "function": "soul_alchemy:xp_siphon/soul_shearing_cons_setup_v"
+          "function": "soul_alchemy:predicate_item_change/soul_shearing_cons_setup_v"
         }
       },
       {
@@ -117,7 +117,7 @@
         ],
         "effect": {
           "type": "run_function",
-          "function": "soul_alchemy:xp_siphon/soul_shearing_cons_setup_s"
+          "function": "soul_alchemy:predicate_item_change/soul_shearing_cons_setup_s"
         }
       }
     ]
