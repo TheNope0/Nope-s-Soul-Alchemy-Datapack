@@ -1,6 +1,6 @@
 execute if score @s npe_current_jump_boost matches ..0 run return run tellraw @s {"text": "You cannot decrease your jump height any further!","color": "red"}
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-1/2 block ","color": "red"},{"text":"\uEE02","font": "soul_alchemy:chat_mojo","color": "white"}]
 scoreboard players add @s npe_soul_points 2
 scoreboard players set @s npe_changed_stat 1

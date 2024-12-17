@@ -15,8 +15,8 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843400,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Power\",\"translate\":\"n_soul_alchemy.item.tomes.strength_tome\"}",
+                "minecraft:custom_model_data": 7843405,
+                "minecraft:item_name": "{\"fallback\":\"Tome of Iron\",\"translate\":\"n_soul_alchemy.item.tomes.armor_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -24,7 +24,7 @@
               "function": "minecraft:set_written_book_pages",
               "pages": [
                 {
-                  "text": "\uEE00",
+                  "text": "\uEE05",
                   "extra": [
                     {
                       "text": "\n\n\n    ",
@@ -34,12 +34,12 @@
                       "text": "\uEE20",
                       "clickEvent": {
                         "action": "run_command",
-                        "value": "/trigger npe_tome_button_trigger set 1"
+                        "value": "/trigger npe_tome_button_trigger set 11"
                       },
                       "hoverEvent": {
                         "action": "show_text",
                         "value": {
-                          "text": "Decrease Damage"
+                          "text": "Decrease Armor Value"
                         }
                       }
                     },
@@ -51,12 +51,12 @@
                       "text": "\uEE21",
                       "clickEvent": {
                         "action": "run_command",
-                        "value": "/trigger npe_tome_button_trigger set 2"
+                        "value": "/trigger npe_tome_button_trigger set 12"
                       },
                       "hoverEvent": {
                         "action": "show_text",
                         "value": {
-                          "text": "Increase Damage"
+                          "text": "Increase Armor Value"
                         }
                       }
                     },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.power_line_1",
+                      "translate": "n_soul_alchemy.tome.iron_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     },

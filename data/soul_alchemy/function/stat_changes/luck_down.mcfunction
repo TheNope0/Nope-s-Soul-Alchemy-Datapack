@@ -1,6 +1,6 @@
 execute if score @s npe_current_luck matches ..-4 run return run tellraw @s {"text": "You cannot have any less luck!","color": "red"}
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-25% ","color": "red"},{"text":"\uEE0A","font": "soul_alchemy:chat_mojo","color": "white"}]
 scoreboard players add @s npe_soul_points 1
 scoreboard players set @s npe_changed_stat 1

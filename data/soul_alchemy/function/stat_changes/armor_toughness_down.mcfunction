@@ -1,6 +1,6 @@
 execute if score @s npe_current_armor_toughness matches ..-8 run return run tellraw @s {"text": "You cannot remove any more of this stat!","color": "red"}
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-1 ","color": "red"},{"text":"\uEE06","font": "soul_alchemy:chat_mojo","color": "white"}]
 scoreboard players add @s npe_soul_points 4
 scoreboard players set @s npe_changed_stat 1

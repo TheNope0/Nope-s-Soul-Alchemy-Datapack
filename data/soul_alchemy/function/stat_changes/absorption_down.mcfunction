@@ -1,6 +1,6 @@
 execute if score @s npe_current_absorption matches ..-1 run return run tellraw @s {"text": "You cannot decrease your absorption level any further!","color": "red"}
 
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 scoreboard players add @s npe_soul_points 2
 scoreboard players set @s npe_changed_stat 1
 
