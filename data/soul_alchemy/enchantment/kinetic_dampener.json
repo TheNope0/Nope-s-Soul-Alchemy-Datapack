@@ -11,11 +11,11 @@
   "anvil_cost": 12,
   "min_cost": {
     "base": 20,
-    "per_level_above_first": 3
+    "per_level_above_first": 5
   },
   "max_cost": {
     "base": 65,
-    "per_level_above_first": 5
+    "per_level_above_first": 15
   },
   "effects": {
     "damage_protection": [
@@ -34,6 +34,10 @@
                 "tags": [
                   {
                     "id": "soul_alchemy:kinetic_damage",
+                    "expected": true
+                  },
+                  {
+                    "id": "minecraft:bypasses_invulnerability",
                     "expected": false
                   }
                 ]
