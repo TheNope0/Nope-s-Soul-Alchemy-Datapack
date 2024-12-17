@@ -1,5 +1,4 @@
 
-scoreboard objectives remove npe_deaths
 scoreboard objectives remove npe_absorption_refresh
 
 scoreboard objectives remove npe_difficulty

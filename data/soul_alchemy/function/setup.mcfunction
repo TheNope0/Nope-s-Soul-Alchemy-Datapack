@@ -1,5 +1,4 @@
 
-scoreboard objectives add npe_deaths deathCount
 scoreboard objectives add npe_xp_level xp
 scoreboard objectives add npe_absorption_refresh dummy
 
