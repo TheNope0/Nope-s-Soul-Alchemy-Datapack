@@ -1,0 +1,93 @@
+{
+    "type": "minecraft:advancement_reward",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 7843400,
+                  "minecraft:item_name": "{\"fallback\":\"Tome of Power\",\"translate\":\"n_soul_alchemy.item.tomes.strength_tome\"}",
+                  "minecraft:rarity": "uncommon"
+                }
+              },
+              {
+                "function": "minecraft:set_written_book_pages",
+                "pages": [
+                  {
+                    "text": "\uEE00",
+                    "extra": [
+                      {
+                        "text": "\n\n\n    ",
+                        "font": "minecraft:default"
+                      },
+                      {
+                        "text": "\uEE20",
+                        "clickEvent": {
+                          "action": "run_command",
+                          "value": "/function soul_alchemy:stat_changes/attack_down"
+                        },
+                        "hoverEvent": {
+                          "action": "show_text",
+                          "value": {
+                            "text": "Decrease Damage"
+                          }
+                        }
+                      },
+                      {
+                        "text": "    ",
+                        "font": "minecraft:default"
+                      },
+                      {
+                        "text": "\uEE21",
+                        "clickEvent": {
+                          "action": "run_command",
+                          "value": "/function soul_alchemy:stat_changes/attack_up"
+                        },
+                        "hoverEvent": {
+                          "action": "show_text",
+                          "value": {
+                            "text": "Increase Damage"
+                          }
+                        }
+                      },
+                      {
+                        "text": "\n\n\n\n",
+                        "font": "minecraft:default"
+                      },
+                      {
+                        "translate": "n_soul_alchemy.tome.power_line_1",
+                        "color": "black",
+                        "font": "minecraft:default"
+                      },
+                      {
+                        "text": "\n",
+                        "font": "minecraft:default"
+                      },
+                      {
+                        "translate": "n_soul_alchemy.tome.power_line_2",
+                        "color": "black",
+                        "font": "minecraft:default"
+                      }
+                    ],
+                    "color": "white",
+                    "font": "soul_alchemy:tome_pages"
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
