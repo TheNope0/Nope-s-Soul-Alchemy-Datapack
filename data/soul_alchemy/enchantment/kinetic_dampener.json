@@ -1,0 +1,45 @@
+{
+  "weight": 1,
+  "description": {
+    "translate": "n_soul_alchemy.enchantment.kinetic_dampener"
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "minecraft:elytra",
+  "max_level": 4,
+  "anvil_cost": 12,
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 5
+  },
+  "effects": {
+    "damage_protection": [
+        {
+            "effect": {
+                "type": "add",
+                "value": {
+                    "type": "linear",
+                    "base": 5,
+                    "per_level_above_first": 5
+                }
+            },
+            "requirements": {
+              "condition": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [
+                  {
+                    "id": "soul_alchemy:kinetic_damage",
+                    "expected": false
+                  }
+                ]
+              }
+            }
+        }
+    ]
+  }
+}

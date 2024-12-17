@@ -48,4 +48,6 @@ scoreboard objectives add npe_current_underwater dummy
 scoreboard objectives add npe_current_height dummy
 scoreboard objectives add npe_current_luck dummy
 
+scoreboard objectives add npe_tome_button_trigger trigger
+
 schedule function soul_alchemy:second 1t

@@ -8,7 +8,7 @@ execute if score .WORLDDIFFICULTY. npe_difficulty matches 1 run scoreboard playe
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 2 run scoreboard players add @s npe_soul_points 2
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 3..5 run scoreboard players add @s npe_soul_points 0
 
-execute unless score .HARDCORE?. npe_difficulty matches 0..2 run function soul_alchemy:hardcore_test
+execute unless score .WORLDDIFFICULTY. npe_difficulty matches 0..2 run function soul_alchemy:hardcore_test
 
 scoreboard players set @s npe_current_hearts 10
 scoreboard players set @s npe_current_absorption 0
