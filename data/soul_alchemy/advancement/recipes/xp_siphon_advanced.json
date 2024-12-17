@@ -1,0 +1,31 @@
+{
+    "criteria": {
+      "has_lapis": {
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:lapis_lazuli"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+      },
+      "has_the_recipe": {
+        "conditions": {
+          "recipe": "soul_alchemy:xp_siphon_advanced"
+        },
+        "trigger": "minecraft:recipe_unlocked"
+      }
+    },
+    "requirements": [
+      [
+        "has_the_recipe",
+        "has_lapis"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "soul_alchemy:xp_siphon_advanced"
+      ]
+    }
+  }
