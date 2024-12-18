@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "translate": "n_soul_alchemy.advancements.xp2.title"
+        },
+        "description": {
+            "translate": "n_soul_alchemy.advancements.xp2.description"
+        },
+        "icon": {
+            "id": "experience_bottle"
+        },
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false,
+        "frame": "task"
+    },
+    "parent": "soul_alchemy:soul_alchemy/xp_benchmark_1",
+    "criteria": {
+        "xp": {
+          "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "xp"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:advancement_rewards/half_a_point"
+    }
+}
