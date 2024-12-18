@@ -281,6 +281,20 @@
             ]
           },
           "trigger": "minecraft:player_killed_entity"
+        },
+        "mooshroom": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:mooshroom"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
         }
     },
     "requirements": [
@@ -340,6 +354,9 @@
         ],
         [
             "wither"
+        ],
+        [
+            "mooshroom"
         ]
     ],
     "rewards": {
