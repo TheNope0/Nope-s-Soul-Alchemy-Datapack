@@ -2,25 +2,25 @@
     "type": "crafting_shaped",
     "category": "misc",
     "pattern": [
-        "SiS",
         "imi",
-        "SiS"
+        "mBm",
+        "imi"
     ],
     "key": {
-        "S": "minecraft:stone",
+        "B": "minecraft:book",
         "i": "minecraft:iron_nugget",
         "m": "#soul_alchemy:common_mob_drops"
     },
     "result": {
-        "count": 3,
-        "id": "paper",
+        "count": 1,
+        "id": "book",
         "components": {
             "max_stack_size": 16,
             "rarity": "common",
-            "item_name": "{\"translate\": \"nopes_runes.item.runes.blank_rune\",\"fallback\": \"Blank Rune\"}",
+            "item_name": "{\"translate\": \"nopes_runes.item.runes.empty_tome\",\"fallback\": \"Empty Tome\"}",
             "custom_model_data": 7843400,
             "custom_data": {
-                "blank_rune":1
+                "empty_tome":1
             }
         }
     }

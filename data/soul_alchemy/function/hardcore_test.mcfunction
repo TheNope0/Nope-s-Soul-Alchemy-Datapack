@@ -1,11 +1,10 @@
-gamerule showDeathMessages false
-gamerule doImmediateRespawn true
+difficulty peaceful
+execute store result score .HARDCORE?. npe_difficulty run difficulty
 
-execute as @a run kill @s
+execute if score .HARDCORE?. npe_difficulty matches 0 run say hardcore not
+execute if score .HARDCORE?. npe_difficulty matches 0 run return run difficulty hard
 
-gamerule showDeathMessages true
-gamerule doImmediateRespawn false
+execute if score .ULTRAHARDCORE?. npe_difficulty matches 1 run scoreboard players set .WORLDDIFFICULTY. npe_difficulty 4
+execute if score .ULTRAHARDCORE?. npe_difficulty matches 0 run scoreboard players set .WORLDDIFFICULTY. npe_difficulty 5
 
-schedule function soul_alchemy:hardcore_test_2 1t
-
-tellraw @a "Testing for Hardcore, one moment please..."
+say hardcore

@@ -1,5 +1,4 @@
 
-scoreboard objectives add npe_deaths deathCount
 scoreboard objectives add npe_xp_level xp
 scoreboard objectives add npe_absorption_refresh dummy
 
@@ -19,14 +18,15 @@ scoreboard objectives add npe_ultra_dummy dummy
 
 scoreboard objectives add npe_spawner_check minecraft.used:minecraft.spawner
 
-scoreboard objectives add npe_difficulty trigger "Current Difficulty"
-scoreboard objectives add npe_is_opped dummy
+scoreboard objectives add npe_difficulty dummy "Current Difficulty"
 scoreboard objectives add npe_is_multiplayer dummy
 
 scoreboard objectives setdisplay sidebar npe_difficulty
 
 execute store result score .WORLDDIFFICULTY. npe_difficulty run difficulty
 execute store result score .ULTRAHARDCORE?. npe_difficulty run gamerule naturalRegeneration
+
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run function soul_alchemy:hardcore_test
 
 scoreboard objectives add npe_soul_points dummy
 scoreboard objectives add npe_half_a_point dummy

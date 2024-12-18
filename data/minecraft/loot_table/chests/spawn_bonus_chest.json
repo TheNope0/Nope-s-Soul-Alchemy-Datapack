@@ -69,6 +69,16 @@
         }
       ],
       "rolls": 3.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "soul_alchemy:chests/bonus_chest_extended"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "minecraft:chests/spawn_bonus_chest"
