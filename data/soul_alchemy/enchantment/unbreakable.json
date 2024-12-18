@@ -20,7 +20,8 @@
   },
   "effects": {
     "minecraft:tick": [
-      
+
+
       {
         "requirements": [
           {
@@ -43,6 +44,21 @@
                     }
                   }
                 }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
               }
             ]
           }
@@ -50,6 +66,246 @@
         "effect": {
           "type": "run_function",
           "function": "soul_alchemy:predicate_item_change/unbreakable_mainhand"
+        }
+      },
+      
+      
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "offhand": {
+                        "components": {
+                          "unbreakable": {
+                            "show_in_tooltip": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "offhand": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "soul_alchemy:predicate_item_change/unbreakable_offhand"
+        }
+      },
+      
+      
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "head": {
+                        "components": {
+                          "unbreakable": {
+                            "show_in_tooltip": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "head": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "soul_alchemy:predicate_item_change/unbreakable_head"
+        }
+      },
+      
+      
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "chest": {
+                        "components": {
+                          "unbreakable": {
+                            "show_in_tooltip": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "chest": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "soul_alchemy:predicate_item_change/unbreakable_chest"
+        }
+      },
+      
+      
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "legs": {
+                        "components": {
+                          "unbreakable": {
+                            "show_in_tooltip": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "legs": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "soul_alchemy:predicate_item_change/unbreakable_legs"
+        }
+      },
+      
+      
+      {
+        "requirements": [
+          {
+            "condition": "all_of",
+            "terms": [
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "feet": {
+                        "components": {
+                          "unbreakable": {
+                            "show_in_tooltip": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "feet": {
+                      "components": {
+                        "enchantments": {
+                          "soul_alchemy:unbreakable": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "effect": {
+          "type": "run_function",
+          "function": "soul_alchemy:predicate_item_change/unbreakable_boots"
         }
       }
     ]
