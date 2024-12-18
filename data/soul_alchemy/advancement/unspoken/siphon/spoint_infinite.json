@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "poisonous_potato"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "infinite_use_spoint": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/spoint_infinite"
+    }
+}

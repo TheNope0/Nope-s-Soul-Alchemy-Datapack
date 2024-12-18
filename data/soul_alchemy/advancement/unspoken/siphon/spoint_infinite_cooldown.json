@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/spoint_infinite_cooldown"
+    }
+}
