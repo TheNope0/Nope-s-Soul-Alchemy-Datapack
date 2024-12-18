@@ -21,7 +21,7 @@
         "components": {
             "max_stack_size": 64,
             "rarity": "uncommon",
-            "item_name": "{\"translate\": \"nopes_runes.block.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
+            "item_name": "{\"translate\": \"n_soul_alchemy.block.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
             "custom_model_data": 7843400,
             "custom_data": {
                 "soul_infuser":1

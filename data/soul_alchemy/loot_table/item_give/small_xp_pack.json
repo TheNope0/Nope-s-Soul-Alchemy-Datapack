@@ -17,16 +17,11 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Small XP Package\",\"translate\":\"nopes_runes.item.xp_storage.small\"}",
+                                "item_name": "{\"fallback\":\"Small XP Package\",\"translate\":\"n_soul_alchemy.item.xp_storage.small\"}",
                                 "lore": [
-                                    "{\"translate\":\"nopes_runes.item.xp_storage_lore.small\"}"
+                                    "{\"translate\":\"n_soul_alchemy.item.xp_storage_lore.small\"}"
                                 ],
                                 "custom_model_data": 7843404,
-                                "food": {
-                                    "nutrition": 0,
-                                    "saturation": 0,
-                                    "can_always_eat": true
-                                },
                                 "consumable": {
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false
