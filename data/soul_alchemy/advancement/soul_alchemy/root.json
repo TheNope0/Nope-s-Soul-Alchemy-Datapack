@@ -1,0 +1,38 @@
+{
+    "display": {
+        "title": {
+            "translate": "n_soul_alchemy.advancements.root.title"
+        },
+        "description": {
+            "translate": "n_soul_alchemy.advancements.root.description"
+        },
+        "icon": {
+            "id": "minecraft:rotten_flesh",
+            "components": {
+                "custom_model_data": 7843400
+            }
+        },
+        "announce_to_chat": false,
+        "show_toast": false,
+        "background": "minecraft:textures/block/soul_soil",
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "0": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "book"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "0"
+        ]
+    ]
+}

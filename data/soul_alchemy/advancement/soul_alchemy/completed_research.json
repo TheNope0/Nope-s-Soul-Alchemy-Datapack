@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "translate": "n_soul_alchemy.advancements.completed_research.title"
+        },
+        "description": {
+            "translate": "n_soul_alchemy.advancements.completed_research.description"
+        },
+        "icon": {
+            "id": "enchanted_book"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true,
+        "frame": "goal"
+    },
+    "parent": "soul_alchemy:soul_alchemy/sentients_research",
+    "criteria": {
+        "completed": {
+          "trigger": "impossible"
+        }
+    },
+    "requirements": [
+        [
+            "completed"
+        ]
+    ],
+    "rewards": {
+        "experience": 20,
+        "function": "soul_alchemy:advancement_rewards/one_soul_point"
+    }
+}

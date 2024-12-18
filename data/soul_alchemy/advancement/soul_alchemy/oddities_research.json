@@ -1,0 +1,349 @@
+{
+    "display": {
+        "title": {
+            "translate": "n_soul_alchemy.advancements.oddities_research.title"
+        },
+        "description": {
+            "translate": "n_soul_alchemy.advancements.oddities_research.description"
+        },
+        "icon": {
+            "id": "shulker_shell"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "parent": "soul_alchemy:soul_alchemy/aquatic_research",
+    "criteria": {
+        "allay": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:allay"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "blaze": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:blaze"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "breeze": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:breeze"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "creeper": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:creeper"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "guardian": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:guardian"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "elder_guardian": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:elder_guardian"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "ghast": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:ghast"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "iron_golem": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:iron_golem"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "magma_cube": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:magma_cube"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "phantom": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:phantom"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "ravager": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:ravager"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "shulker": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:shulker"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "slime": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:slime"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "snow_golem": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:snow_golem"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "sniffer": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:sniffer"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "strider": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:strider"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "vex": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:vex"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "warden": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:warden"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "wither": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:wither"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "allay"
+        ],
+        [
+            "blaze"
+        ],
+        [
+            "breeze"
+        ],
+        [
+            "creeper"
+        ],
+        [
+            "elder_guardian"
+        ],
+        [
+            "ghast"
+        ],
+        [
+            "guardian"
+        ],
+        [
+            "iron_golem"
+        ],
+        [
+            "magma_cube"
+        ],
+        [
+            "phantom"
+        ],
+        [
+            "ravager"
+        ],
+        [
+            "shulker"
+        ],
+        [
+            "slime"
+        ],
+        [
+            "sniffer"
+        ],
+        [
+            "snow_golem"
+        ],
+        [
+            "strider"
+        ],
+        [
+            "vex"
+        ],
+        [
+            "warden"
+        ],
+        [
+            "wither"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "soul_alchemy:advancement_rewards/half_a_point"
+    }
+}

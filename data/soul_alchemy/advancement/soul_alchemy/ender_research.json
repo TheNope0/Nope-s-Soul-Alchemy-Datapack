@@ -1,0 +1,94 @@
+{
+    "display": {
+        "title": {
+            "translate": "n_soul_alchemy.advancements.ender_research.title"
+        },
+        "description": {
+            "translate": "n_soul_alchemy.advancements.ender_research.description"
+        },
+        "icon": {
+            "id": "ender_pearl"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "parent": "soul_alchemy:soul_alchemy/nether_research",
+    "criteria": {
+        "ender_dragon": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:ender_dragon"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "enderman": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:enderman"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "endermite": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:endermite"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "shulker": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:shulker"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "ender_dragon"
+        ],
+        [
+            "enderman"
+        ],
+        [
+            "endermite"
+        ],
+        [
+            "shulker"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "soul_alchemy:advancement_rewards/half_a_point"
+    }
+}
