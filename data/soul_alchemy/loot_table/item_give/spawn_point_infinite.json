@@ -15,7 +15,7 @@
                         {
                             "function": "set_components",
                             "components": {
-                                "max_stack_size": 16,
+                                "max_stack_size": 1,
                                 "rarity": "uncommon",
                                 "item_name": "{\"translate\":\"n_soul_alchemy.item.spawn_point\"}",
                                 "lore": [
