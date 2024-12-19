@@ -1,5 +1,5 @@
 spawnpoint @s ~ ~ ~
-tellraw @s "Spawnpoint Set"
+tellraw @s {"translate": "n_soul_alchemy.inform.spawnpoint_set"}
 
 clear @s poisonous_potato[minecraft:custom_data={single_use_spoint: 1b}] 1
 

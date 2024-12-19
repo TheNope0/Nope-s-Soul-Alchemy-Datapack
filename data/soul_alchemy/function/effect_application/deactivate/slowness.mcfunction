@@ -1,7 +1,7 @@
-execute if data entity @s {Tags:["deactivate_slowness"]} run return run tellraw @s {"text": "Effect disabled on user","color": "green"}
+execute if data entity @s {Tags:["deactivate_slowness"]} run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
 
 
-execute unless score @s npe_soul_points matches 8.. run return run tellraw @s {"text": "You do not have enough Soul Points!","color": "red"}
+execute unless score @s npe_soul_points matches 8.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
 scoreboard players remove @s npe_soul_points 8
-tellraw @s {"text": "Effect disabled on user","color": "green"}
+tellraw @s {"translate": "n_soul_alchemy.inform.effect_disabled","color": "gray"}
 tag @s add deactivate_slowness

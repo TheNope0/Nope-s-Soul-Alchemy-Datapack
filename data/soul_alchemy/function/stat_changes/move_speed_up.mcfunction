@@ -1,5 +1,5 @@
-execute if score @s npe_current_move_speed matches 40.. run return run tellraw @s {"text": "You already have the maximum movememnt speed!","color": "red"}
-execute unless score @s npe_soul_points matches 1.. run return run tellraw @s {"text": "You do not have enough soul points to increase this stat!","color": "red"}
+execute if score @s npe_current_move_speed matches 40.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.no_increase","color": "red"}
+execute unless score @s npe_soul_points matches 1.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"+4% ","color": "dark_green"},{"text":"\uEE01","font": "soul_alchemy:chat_mojo","color": "white"}]

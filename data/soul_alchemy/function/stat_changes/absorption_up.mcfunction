@@ -1,5 +1,5 @@
-execute if score @s npe_current_absorption matches 2.. run return run tellraw @s {"text": "You already have the maximum absorption level!","color": "red"}
-execute unless score @s npe_soul_points matches 2.. run return run tellraw @s {"text": "You do not have enough soul points to increase this stat!","color": "red"}
+execute if score @s npe_current_absorption matches 2.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.no_increase","color": "red"}
+execute unless score @s npe_soul_points matches 2.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 scoreboard players remove @s npe_soul_points 2
