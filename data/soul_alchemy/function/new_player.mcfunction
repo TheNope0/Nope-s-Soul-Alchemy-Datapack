@@ -6,7 +6,7 @@ execute if score .PLAYERNUMBER. npe_is_multiplayer matches 2.. run scoreboard pl
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 0 run scoreboard players add @s npe_soul_points 4
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 1 run scoreboard players add @s npe_soul_points 4
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 2 run scoreboard players add @s npe_soul_points 2
-execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run scoreboard players add @s npe_soul_points 0
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run scoreboard players add @s npe_soul_points 1
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 4..5 run scoreboard players add @s npe_soul_points 0
 
 scoreboard players set @s npe_current_hearts 10
