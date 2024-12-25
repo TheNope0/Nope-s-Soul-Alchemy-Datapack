@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/positive/water_breathing"
+      "function": "soul_alchemy:effect_change/positive/water_breathing"
     }
   }
   

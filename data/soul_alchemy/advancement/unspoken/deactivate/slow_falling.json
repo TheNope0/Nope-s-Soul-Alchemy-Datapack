@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/positive/slow_falling"
+      "function": "soul_alchemy:effect_change/positive/slow_falling"
     }
   }
   

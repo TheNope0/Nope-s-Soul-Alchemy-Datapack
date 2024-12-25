@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/positive/jump_boost"
+      "function": "soul_alchemy:effect_change/positive/jump_boost"
     }
   }
   

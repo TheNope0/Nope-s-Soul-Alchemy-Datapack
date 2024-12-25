@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/negative/levitation"
+      "function": "soul_alchemy:effect_change/negative/levitation"
     }
   }
   

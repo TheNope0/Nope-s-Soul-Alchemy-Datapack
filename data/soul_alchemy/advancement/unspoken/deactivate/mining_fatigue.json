@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/negative/mining_fatigue"
+      "function": "soul_alchemy:effect_change/negative/mining_fatigue"
     }
   }
   

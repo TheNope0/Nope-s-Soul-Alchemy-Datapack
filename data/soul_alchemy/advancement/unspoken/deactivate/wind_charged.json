@@ -15,7 +15,7 @@
       ]
     ],
     "rewards": {
-      "function": "soul_alchemy:effect_change/deactivate/negative/wind_charged"
+      "function": "soul_alchemy:effect_change/negative/wind_charged"
     }
   }
   
