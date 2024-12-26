@@ -1,4 +1,4 @@
-execute if data entity @s {Tags:["deactivate_water_breathing"]} run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
+execute if entity @s[tag=deactivate_water_breathing] run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
 
 
 scoreboard players add @s npe_soul_points 4

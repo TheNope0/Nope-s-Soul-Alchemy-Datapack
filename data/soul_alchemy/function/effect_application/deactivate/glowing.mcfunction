@@ -1,10 +1,10 @@
-execute if data entity @s {Tags:["deactivate_glowing"]} run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
+execute if entity @s[tag=deactivate_glowing] run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
 
 
-execute if data entity @s {Tags:["permanent_glowing"]} run scoreboard players add @s npe_soul_points 6
-execute if data entity @s {Tags:["permanent_glowing"]} run tellraw @s {"translate": "n_soul_alchemy.inform.effect_disabled","color": "gray"}
-execute if data entity @s {Tags:["permanent_glowing"]} run tag @s add deactivate_glowing
-execute if data entity @s {Tags:["permanent_glowing"]} run return run tag @s remove permanent_glowing
+execute if entity @s[tag=permanent_glowing] run scoreboard players add @s npe_soul_points 6
+execute if entity @s[tag=permanent_glowing] run tellraw @s {"translate": "n_soul_alchemy.inform.effect_disabled","color": "gray"}
+execute if entity @s[tag=permanent_glowing] run tag @s add deactivate_glowing
+execute if entity @s[tag=permanent_glowing] run return run tag @s remove permanent_glowing
 
 
 scoreboard players add @s npe_soul_points 3

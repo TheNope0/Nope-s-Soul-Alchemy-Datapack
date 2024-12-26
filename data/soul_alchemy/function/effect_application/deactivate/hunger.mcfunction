@@ -1,11 +1,11 @@
-execute if data entity @s {Tags:["deactivate_hunger"]} run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
+execute if entity @s[tag=deactivate_hunger] run return run tellraw @s {"translate": "n_soul_alchemy.inform.effect_already_disabled","color": "gray"}
 
 
-execute if data entity @s {Tags:["permanent_hunger"]} unless score @s npe_soul_points matches 8.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
-execute if data entity @s {Tags:["permanent_hunger"]} run scoreboard players remove @s npe_soul_points 8
-execute if data entity @s {Tags:["permanent_hunger"]} run tellraw @s {"translate": "n_soul_alchemy.inform.effect_disabled","color": "gray"}
-execute if data entity @s {Tags:["permanent_hunger"]} run tag @s add deactivate_hunger
-execute if data entity @s {Tags:["permanent_hunger"]} run return run tag @s remove permanent_hunger
+execute if entity @s[tag=permanent_hunger] unless score @s npe_soul_points matches 8.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
+execute if entity @s[tag=permanent_hunger] run scoreboard players remove @s npe_soul_points 8
+execute if entity @s[tag=permanent_hunger] run tellraw @s {"translate": "n_soul_alchemy.inform.effect_disabled","color": "gray"}
+execute if entity @s[tag=permanent_hunger] run tag @s add deactivate_hunger
+execute if entity @s[tag=permanent_hunger] run return run tag @s remove permanent_hunger
 
 
 execute unless score @s npe_soul_points matches 4.. run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
