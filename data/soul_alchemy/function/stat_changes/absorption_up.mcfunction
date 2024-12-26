@@ -16,14 +16,14 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 0 run tellraw @s [{"text":"+1 ","color": "dark_green"},{"text":"\uEE04","font": "soul_alchemy:chat_mojo","color": "white"}]
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 0 run attribute @s max_absorption base set 2
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 0 run tellraw @s [{"text":"+1.5 ","color": "dark_green"},{"text":"\uEE04","font": "soul_alchemy:chat_mojo","color": "white"}]
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 0 run attribute @s max_absorption base set 3
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 0 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_absorption 1
 
 
 
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 1 run tellraw @s [{"text":"+1 ","color": "dark_green"},{"text":"\uEE04","font": "soul_alchemy:chat_mojo","color": "white"}]
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 1 run attribute @s max_absorption base set 4
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 1 run tellraw @s [{"text":"+1.5 ","color": "dark_green"},{"text":"\uEE04","font": "soul_alchemy:chat_mojo","color": "white"}]
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 1 run attribute @s max_absorption base set 6
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_absorption matches 1 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_absorption 2
