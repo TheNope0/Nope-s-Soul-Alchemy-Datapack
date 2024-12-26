@@ -13,12 +13,7 @@
                             "max_quick_charge": 1
                         }
                     }
-                }
-            }
-        },
-        "items": {
-            "trigger": "minecraft:tick",
-            "conditions": {
+                },
                 "player": {
                     "slots": {
                         "weapon.mainhand": {
@@ -41,9 +36,6 @@
     "requirements": [
         [
             "use"
-        ],
-        [
-            "items"
         ]
     ],
     "rewards": {
