@@ -7,3 +7,7 @@ execute as @a[scores={npe_tome_button_trigger=1..}] run function soul_alchemy:st
 
 execute at @a[scores={npe_spawner_check=1..}] run function soul_alchemy:advanced_silk_touch/spawner/block_check
 scoreboard players remove @a[scores={npe_spawner_check=1..}] npe_spawner_check 1
+
+
+
+execute positioned -138 64 32 if items block ~ ~ ~ container.0 book[custom_data~{medium_xp_hold:1b}] if items block ~ ~ ~ container.1 enchanted_book[stored_enchantments~[{enchantments:silk_touch}]] if items block ~ ~ ~ container.9 echo_shard if items block ~ ~ ~ container.13 book[!custom_data,count=1] run function soul_alchemy:soul_infuser_recipes/soul_shearing_enchantment
