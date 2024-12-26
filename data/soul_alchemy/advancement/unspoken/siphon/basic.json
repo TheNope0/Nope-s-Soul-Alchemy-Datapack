@@ -14,11 +14,31 @@
                     }
                 }
             }
+        },
+        "items": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "book",
+                            "components": {
+                                "custom_data": {
+                                    "basic_xp_siphon": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     },
     "requirements": [
         [
             "use"
+        ],
+        [
+            "items"
         ]
     ],
     "rewards": {
