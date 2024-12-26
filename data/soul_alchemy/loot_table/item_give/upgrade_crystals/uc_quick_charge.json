@@ -1,0 +1,40 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "diamond",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 4,
+                                "rarity": "rare",
+                                "item_name": "{\"translate\":\"n_soul_alchemy.item.upgrade_crystal\"}",
+                                "lore": [
+                                    "{\"translate\":\"n_soul_alchemy.item.uc_quick_charge\",\"color\": \"white\",\"italic\":false}"
+                                ],
+                                "custom_model_data": 7843404,
+                                "consumable": {
+                                    "consume_seconds": 2147483647,
+                                    "has_consume_particles": false
+                                },
+                                "custom_data": {
+                                    "upgrade_crystal": 1,
+                                    "max_quick_charge": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

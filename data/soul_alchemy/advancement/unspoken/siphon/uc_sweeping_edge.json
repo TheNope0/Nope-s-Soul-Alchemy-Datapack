@@ -1,0 +1,52 @@
+{
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "diamond"
+                    ],
+                    "components": {
+                        "custom_data": {
+                            "upgrade_crystal": 1,
+                            "max_sweeping_edge": 1
+                        }
+                    }
+                }
+            }
+        },
+        "items": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {
+                            "items": "#enchantable/sword"
+                        },
+                        "weapon.offhand": {
+                            "items": "diamond",
+                            "components": {
+                                "custom_data": {
+                                    "upgrade_crystal": 1,
+                                    "max_sweeping_edge": 1
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "use"
+        ],
+        [
+            "items"
+        ]
+    ],
+    "rewards": {
+        "function": "soul_alchemy:xp_siphon/uc_sweeping_edge"
+    }
+}

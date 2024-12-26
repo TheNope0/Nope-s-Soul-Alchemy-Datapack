@@ -13,6 +13,7 @@ scoreboard objectives add npe_xp_large_cooldown dummy
 
 scoreboard objectives add npe_soul_shears_cooldown dummy
 scoreboard objectives add npe_soul_shard_cooldown dummy
+scoreboard objectives add npe_upgrade_crystal_cooldown dummy
 
 scoreboard objectives add npe_spoint_port_cooldown dummy
 
