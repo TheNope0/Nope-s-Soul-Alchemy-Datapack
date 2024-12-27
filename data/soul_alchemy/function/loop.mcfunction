@@ -2,7 +2,7 @@ execute as @a[scores={npe_current_absorption=1..}] run scoreboard players add @s
 execute as @a[scores={npe_current_absorption=1..,npe_absorption_refresh=24000..}] run function soul_alchemy:stat_changes/absorption_refresh
 
 
-execute as @a[scores={npe_tome_button_trigger=1..}] run function soul_alchemy:stat_changes/tome_button_apply
+execute as @a[scores={npe_tome_button_trigger=1..}] run function soul_alchemy:tome_button_apply
 
 
 execute at @a[scores={npe_spawner_check=1..}] run function soul_alchemy:advanced_silk_touch/spawner/block_check
