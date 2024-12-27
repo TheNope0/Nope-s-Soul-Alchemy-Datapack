@@ -14,7 +14,7 @@
         },
         "announce_to_chat": false,
         "show_toast": false,
-        "background": "minecraft:textures/block/soul_soil",
+        "background": "minecraft:textures/block/soul_soil.png",
         "frame": "task",
         "hidden": true
     },
