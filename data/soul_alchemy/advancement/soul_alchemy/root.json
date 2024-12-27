@@ -1,7 +1,8 @@
 {
     "display": {
         "title": {
-            "translate": "n_soul_alchemy.advancements.root.title"
+            "translate": "n_soul_alchemy.advancements.root.title",
+            "fallback": "MISSING RESOURCE PACK"
         },
         "description": {
             "translate": "n_soul_alchemy.advancements.root.description"
