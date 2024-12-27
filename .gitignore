@@ -1,3 +1,4 @@
 .datapack
 *.py
 .venv
+ignore/
