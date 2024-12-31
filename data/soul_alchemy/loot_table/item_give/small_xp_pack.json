@@ -21,7 +21,7 @@
                                 "lore": [
                                     "{\"translate\":\"n_soul_alchemy.item.xp_storage_lore.small\"}"
                                 ],
-                                "custom_model_data": 7843404,
+                                "custom_model_data": 7843405,
                                 "consumable": {
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false
