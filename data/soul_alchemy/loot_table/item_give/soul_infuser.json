@@ -1,0 +1,38 @@
+{
+    "type": "advancement_reward",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 64,
+                                "rarity": "uncommon",
+                                "item_name": "{\"translate\": \"n_soul_alchemy.block.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
+                                "custom_model_data": 7843400,
+                                "custom_data": {
+                                    "soul_infuser":1
+                                },
+                                "entity_data": {
+                                    "id": "armor_stand",
+                                    "Tags": [
+                                        "soul_infuser"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
