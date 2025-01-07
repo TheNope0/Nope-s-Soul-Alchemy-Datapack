@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "slots": {
+            "weapon.offhand": {
+                "items": "stick",
+                "components": {
+                    "custom_data": {
+                        "not_an_item": 1
+                    }
+                }
+            }
+        }
+    }
+}
