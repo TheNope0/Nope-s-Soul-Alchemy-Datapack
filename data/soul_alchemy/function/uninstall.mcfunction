@@ -2,7 +2,7 @@
 scoreboard objectives remove npe_absorption_refresh
 
 scoreboard objectives remove npe_difficulty
-scoreboard objectives remove npe_is_multiplayer
+# scoreboard objectives remove npe_is_multiplayer
 
 scoreboard objectives remove npe_soul_points
 scoreboard objectives remove npe_changed_stat
