@@ -1,0 +1,234 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 7843413,
+                "minecraft:item_name": "{\"fallback\":\"Tome of Insight\",\"translate\":\"n_soul_alchemy.item.tomes.insight_tome\"}",
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "\uEE0C",
+                  "extra": [
+                    {
+                      "text": " ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE22",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 110"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Reload Book"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE0C",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n\uEE00",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE01",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A%",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE02",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE03",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE04",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE05",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE06",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n\uEE0B",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A%",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE0C",
+                  "extra": [
+                    {
+                      "text": " ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE22",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 110"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Reload Book"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE08",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A% KB Resist",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE08",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A% Explosive KB Resist",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n\uEE07",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A Block Reach",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE07",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A Entity Reach",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n\uEE09",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A Oxygen Bonus",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\uEE09",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A% Underwater Mining Efficiency",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n\uEE0A",
+                      "font": "soul_alchemy:chat_mojo"
+                    },
+                    {
+                      "text": ": N/A%",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

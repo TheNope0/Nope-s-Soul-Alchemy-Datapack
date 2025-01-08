@@ -1,0 +1,365 @@
+{
+  "function": "set_written_book_pages",
+  "mode": "replace_all",
+  "pages": [
+    {
+      "text": "\uEE0C",
+      "extra": [
+        {
+          "text": " ",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\uEE22",
+          "clickEvent": {
+            "action": "run_command",
+            "value": "/trigger npe_tome_button_trigger set 110"
+          },
+          "hoverEvent": {
+            "action": "show_text",
+            "value": {
+              "text": "Reload Book"
+            }
+          }
+        },
+        {
+          "text": "\n\n",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\uEE0C",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_soul_points"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\n\uEE00",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.Damage",
+          "interpret": true,
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE01",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_math_speed"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "%",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE02",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.JumpBoost",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE03",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_current_hearts"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE04",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_math_absorption"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE05",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_current_armor"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE06",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_current_armor_toughness"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\n\uEE0B",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_math_height"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "%",
+          "color": "black",
+          "font": "minecraft:default"
+        }
+      ],
+      "color": "white",
+      "font": "soul_alchemy:tome_pages"
+    },
+    {
+      "text": "\uEE0C",
+      "extra": [
+        {
+          "text": " ",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\uEE22",
+          "clickEvent": {
+            "action": "run_command",
+            "value": "/trigger npe_tome_button_trigger set 110"
+          },
+          "hoverEvent": {
+            "action": "show_text",
+            "value": {
+              "text": "Reload Book"
+            }
+          }
+        },
+        {
+          "text": "\n\n",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\uEE08",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.KnockBackResist",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "% KB Resist",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE08",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.KnockBackResistExpl",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "% Explosive KB Resist",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\n\uEE07",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.BlockReach",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": " Block Reach",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE07",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.EntityReach",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": " Entity Reach",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\n\uEE09",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.OxygenBonus",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": " Oxygen Bonus",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\uEE09",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.WaterMiningSpeed",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "% Underwater Mining Efficiency",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "\n\n\uEE0A",
+          "font": "soul_alchemy:chat_mojo"
+        },
+        {
+          "text": ": ",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "score": {
+            "name": "@s",
+            "objective": "npe_math_luck"
+          },
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": "%",
+          "color": "black",
+          "font": "minecraft:default"
+        }
+      ],
+      "color": "white",
+      "font": "soul_alchemy:tome_pages"
+    }
+  ]
+}
