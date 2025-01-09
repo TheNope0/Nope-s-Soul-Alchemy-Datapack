@@ -1,4 +1,4 @@
-scoreboard players add .PLAYERNUMBER. npe_is_multiplayer 1
+# scoreboard players add .PLAYERNUMBER. npe_is_multiplayer 1
 
 # execute if score .PLAYERNUMBER. npe_is_multiplayer matches 1 run scoreboard players set .MULTIPLAYER?. npe_is_multiplayer 0
 # execute if score .PLAYERNUMBER. npe_is_multiplayer matches 2.. run scoreboard players set .MULTIPLAYER?. npe_is_multiplayer 1
