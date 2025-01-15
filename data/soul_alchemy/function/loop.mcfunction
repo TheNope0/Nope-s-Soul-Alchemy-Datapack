@@ -24,5 +24,3 @@ execute if score .WORLDDIFFICULTY. npe_difficulty matches 2 run function soul_al
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run function soul_alchemy:loop_hard
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 4 run function soul_alchemy:loop_hardcore
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 5 run function soul_alchemy:loop_uhc
-
-item modify entity @s weapon.mainhand {function:"set_components","components":{lodestone_tracker:{target:{dimension:"minecraft:overworld",pos:[I;0,65,0]},tracked:false}}}
