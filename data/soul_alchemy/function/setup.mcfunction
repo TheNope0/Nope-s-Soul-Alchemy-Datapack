@@ -27,7 +27,7 @@ scoreboard objectives add npe_difficulty dummy "Current Difficulty"
 execute store result score .WORLDDIFFICULTY. npe_difficulty run difficulty
 execute store result score .ULTRAHARDCORE?. npe_difficulty run gamerule naturalRegeneration
 
-execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run function soul_alchemy:hardcore_test
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 3 run function soul_alchemy:miscellaneous/hardcore_test
 
 scoreboard objectives add npe_soul_points dummy
 scoreboard objectives add npe_half_a_point dummy
