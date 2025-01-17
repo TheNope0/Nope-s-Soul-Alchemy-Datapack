@@ -1,0 +1,297 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_model_data": 7843412,
+                "minecraft:item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"n_soul_alchemy.item.tomes.knowledge_tome\"}",
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n    ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "translate": "n_soul_alchemy.inform.crafting_recipe_page_1",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE10",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE11",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE12",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE13",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE14",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE15",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE16",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE17",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE18",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE19",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE47"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE1A",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE1B",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE1C",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4C"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE1D",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE1E",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE20",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE40\uEE43"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE21",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE22",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE4E\uEE49"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE23",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE4E\uEE44"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE24",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE42"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE25",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE45\uEE4A"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE26",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE27",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE28",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE29",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE2A",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE2B",
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE30",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE41"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE31",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE48\uEE4E\uEE4E\uEE46"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
+                  "text": "\uEE32",
+                  "extra": [
+                    {
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D\uEE4E\uEE4E\uEE4E\uEE4E\uEE4F\uEE4B"
+                    },
+                    {
+                      "text": "\n\n\n\n            ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE48"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
