@@ -1,11 +1,6 @@
 execute unless items block ~ ~ ~ container.0 * run return -1
 
-
-
-
-
 execute if items block ~ ~ ~ container.0 minecraft:book[custom_data~{'large_xp_hold': 1}] if items block ~ ~ ~ container.1 minecraft:enchanted_book[stored_enchantments~[{enchantments:"minecraft:silk_touch",levels:1}]] if items block ~ ~ ~ container.9 minecraft:netherite_upgrade_smithing_template if items block ~ ~ ~ container.10 minecraft:amethyst_cluster if items block ~ ~ ~ container.13 minecraft:book[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/enchant_advanced_silk_touch
-
 execute if items block ~ ~ ~ container.0 minecraft:book[custom_data~{'large_xp_hold': 1}] if items block ~ ~ ~ container.1 minecraft:enchanted_book[stored_enchantments~[{enchantments:"minecraft:breach"}]] if items block ~ ~ ~ container.9 minecraft:netherite_scrap if items block ~ ~ ~ container.10 minecraft:breeze_rod if items block ~ ~ ~ container.18 minecraft:phantom_membrane if items block ~ ~ ~ container.13 minecraft:book[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/enchant_armor_piercing_arrows
 execute if items block ~ ~ ~ container.0 minecraft:book[custom_data~{'small_xp_hold': 1}] if items block ~ ~ ~ container.1 minecraft:enchanted_book[stored_enchantments~[{enchantments:"minecraft:protection"}]] if items block ~ ~ ~ container.9 minecraft:phantom_membrane[count~{min:2}] if items block ~ ~ ~ container.10 minecraft:slime_ball[count~{min:4}] if items block ~ ~ ~ container.13 minecraft:book[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/enchant_kinetic_dampener
 execute if items block ~ ~ ~ container.0 minecraft:book[custom_data~{'medium_xp_hold': 1}] if items block ~ ~ ~ container.1 minecraft:enchanted_book[stored_enchantments~[{enchantments:"minecraft:protection"}]] if items block ~ ~ ~ container.9 minecraft:netherite_scrap if items block ~ ~ ~ container.10 minecraft:phantom_membrane if items block ~ ~ ~ container.13 minecraft:book[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/enchant_reinforced_wings
