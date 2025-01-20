@@ -12,6 +12,11 @@
                             "infinite_use_spoint": 1
                         }
                     }
+                },
+                "player": {
+                    "slots": {
+                        "weapon.mainhand": {}
+                    }
                 }
             }
         }

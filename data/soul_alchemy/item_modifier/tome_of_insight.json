@@ -10,7 +10,7 @@
           "font": "minecraft:default"
         },
         {
-          "text": "\uEE22",
+          "text": "\uEE52",
           "clickEvent": {
             "action": "run_command",
             "value": "/trigger npe_tome_button_trigger set 110"
@@ -54,8 +54,19 @@
         },
         {
           "storage": "soul_alchemy:tome_of_insight",
-          "nbt": "TomeOfInsight.Damage",
-          "interpret": true,
+          "nbt": "TomeOfInsight.DamageInteger",
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": ".",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.DamageDecimal",
           "source": "storage",
           "color": "black",
           "font": "minecraft:default"
@@ -93,7 +104,20 @@
         },
         {
           "storage": "soul_alchemy:tome_of_insight",
-          "nbt": "TomeOfInsight.JumpBoost",
+          "nbt": "TomeOfInsight.JumpBoostInteger",
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": ".",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.JumpBoostDecimal",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -124,10 +148,21 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_math_absorption"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.AbsorptionInteger",
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": ".",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.AbsorptionDecimal",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -199,7 +234,7 @@
           "font": "minecraft:default"
         },
         {
-          "text": "\uEE22",
+          "text": "\uEE52",
           "clickEvent": {
             "action": "run_command",
             "value": "/trigger npe_tome_button_trigger set 110"
@@ -227,6 +262,7 @@
         {
           "storage": "soul_alchemy:tome_of_insight",
           "nbt": "TomeOfInsight.KnockBackResist",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -247,6 +283,7 @@
         {
           "storage": "soul_alchemy:tome_of_insight",
           "nbt": "TomeOfInsight.KnockBackResistExpl",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -266,7 +303,20 @@
         },
         {
           "storage": "soul_alchemy:tome_of_insight",
-          "nbt": "TomeOfInsight.BlockReach",
+          "nbt": "TomeOfInsight.BlockReachInteger",
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": ".",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.BlockReachDecimal",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -286,7 +336,20 @@
         },
         {
           "storage": "soul_alchemy:tome_of_insight",
-          "nbt": "TomeOfInsight.EntityReach",
+          "nbt": "TomeOfInsight.EntityReachInteger",
+          "source": "storage",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "text": ".",
+          "color": "black",
+          "font": "minecraft:default"
+        },
+        {
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.EntityReachDecimal",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -307,6 +370,7 @@
         {
           "storage": "soul_alchemy:tome_of_insight",
           "nbt": "TomeOfInsight.OxygenBonus",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -327,6 +391,7 @@
         {
           "storage": "soul_alchemy:tome_of_insight",
           "nbt": "TomeOfInsight.WaterMiningSpeed",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },

@@ -31,7 +31,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "text": "\uEE22",
+                      "text": "\uEE52",
                       "clickEvent": {
                         "action": "run_command",
                         "value": "/trigger npe_tome_button_trigger set 110"

@@ -141,7 +141,7 @@ execute if score .trigger_temp. npe_tome_button_trigger matches 106 run function
 
 
 
-execute if score .trigger_temp. npe_tome_button_trigger matches 110 run function soul_alchemy:tome_insight_reset
+execute if score .trigger_temp. npe_tome_button_trigger matches 110 run function soul_alchemy:miscellaneous/tome_insight_reset
 
 
 

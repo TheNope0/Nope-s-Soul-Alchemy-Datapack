@@ -7,9 +7,9 @@
         "imi"
     ],
     "key": {
-        "B": "minecraft:book",
+        "m": "minecraft:book",
         "i": "minecraft:iron_nugget",
-        "m": "#soul_alchemy:common_mob_drops"
+        "B": "#soul_alchemy:common_mob_drops"
     },
     "result": {
         "count": 1,
