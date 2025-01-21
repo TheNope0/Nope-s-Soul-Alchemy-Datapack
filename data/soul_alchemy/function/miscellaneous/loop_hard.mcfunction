@@ -1,2 +1,2 @@
-execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_overlay_3
-execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_check_3
+execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_overlay_0
+execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_check_0
