@@ -1,0 +1,2 @@
+execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_overlay_5
+execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_check_5
