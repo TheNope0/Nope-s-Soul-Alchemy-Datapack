@@ -1,7 +1,7 @@
 execute if score @s npe_current_move_speed matches ..-20 run return run tellraw @s {"translate": "n_soul_alchemy.inform.no_decrease","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
-tellraw @s [{"text":"-5% ","color": "red"},{"text":"\uEE01","font": "soul_alchemy:chat_mojo","color": "white"}]
+tellraw @s [{"text":"-4% ","color": "red"},{"text":"\uEE01","font": "soul_alchemy:chat_mojo","color": "white"}]
 scoreboard players add @s npe_soul_points 1
 scoreboard players set @s npe_changed_stat 1
 
