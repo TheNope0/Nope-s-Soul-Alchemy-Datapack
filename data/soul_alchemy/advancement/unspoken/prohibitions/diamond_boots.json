@@ -3,19 +3,13 @@
       "prohibition": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "slots": {
-                  "armor.feet": {
-                    "items": "minecraft:diamond_boots"
-                  }
-                }
+          "player": {
+            "equipment": {
+              "feet": {
+                "items": "diamond_boots"
               }
             }
-          ]
+          }
         }
       }
     },

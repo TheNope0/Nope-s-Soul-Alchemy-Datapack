@@ -3,19 +3,13 @@
       "prohibition": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "slots": {
-                  "armor.legs": {
-                    "items": "minecraft:netherite_leggings"
-                  }
-                }
+          "player": {
+            "equipment": {
+              "legs": {
+                "items": "netherite_leggings"
               }
             }
-          ]
+          }
         }
       }
     },

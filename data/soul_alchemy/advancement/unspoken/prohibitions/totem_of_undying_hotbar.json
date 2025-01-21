@@ -1,21 +1,15 @@
 {
     "criteria": {
       "totem_holding": {
-        "trigger": "minecraft:inventory_changed",
+        "trigger": "minecraft:tick",
         "conditions": {
-          "player": [
-            {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "slots": {
-                  "hotbar.*": {
-                    "items": "#soul_alchemy:totems"
-                  }
-                }
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": "#soul_alchemy:totems"
               }
             }
-          ]
+          }
         }
       }
     },
