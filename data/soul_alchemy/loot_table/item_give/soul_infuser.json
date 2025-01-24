@@ -1,5 +1,5 @@
 {
-    "type": "advancement_reward",
+    "type": "block",
     "pools": [
         {
             "rolls": 1,
@@ -19,9 +19,6 @@
                                 "rarity": "uncommon",
                                 "item_name": "{\"translate\": \"n_soul_alchemy.block.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
                                 "custom_model_data": 7843400,
-                                "custom_data": {
-                                    "soul_infuser":1
-                                },
                                 "entity_data": {
                                     "id": "armor_stand",
                                     "Tags": [
