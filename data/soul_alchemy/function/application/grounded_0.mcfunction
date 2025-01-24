@@ -8,3 +8,5 @@ tellraw @s {"translate": "n_soul_alchemy.inform.prohibition_normal","color": "re
 tag @s remove prohibit_elytra
 
 # say elytra not revoke
+
+execute if items entity @s armor.chest elytra run advancement grant @s only soul_alchemy:unspoken/prohibitions/elytra

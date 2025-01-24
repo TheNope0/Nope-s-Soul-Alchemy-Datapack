@@ -1,7 +1,7 @@
 {
     "criteria": {
       "prohibition": {
-        "trigger": "minecraft:tick",
+        "trigger": "minecraft:inventory_changed",
         "conditions": {
           "player": {
             "equipment": {
