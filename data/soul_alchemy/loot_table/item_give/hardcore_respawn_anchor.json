@@ -1,0 +1,36 @@
+{
+    "type": "block",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "armor_stand",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "max_stack_size": 16,
+                                "rarity": "uncommon",
+                                "item_name": "{\"translate\": \"n_soul_alchemy.block.hardcore_respawn_anchor\",\"fallback\": \"HRA\"}",
+                                "custom_model_data": 7843402,
+                                "entity_data": {
+                                    "id": "armor_stand",
+                                    "Tags": [
+                                        "hardcore_respawn_anchor"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "random_sequence": "soul_alchemy:statue_base"
+}

@@ -17,6 +17,10 @@ execute as @a if predicate soul_alchemy:illegal_item_inventory run clear @s *[cu
 
 execute as @e[type=item_display,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/soul_infuser_illegal_item
 
+ 
+execute as @e[type=armor_stand,tag=statue_base] at @s run function soul_alchemy:miscellaneous/spawn_statue_base
+execute as @e[type=item_display,tag=statue_base] at @s unless predicate soul_alchemy:not_a_stone_slab run function soul_alchemy:miscellaneous/break_statue_base
+
 
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 0 run function soul_alchemy:miscellaneous/loop_peaceful
 execute if score .WORLDDIFFICULTY. npe_difficulty matches 1 run function soul_alchemy:miscellaneous/loop_easy

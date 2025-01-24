@@ -24,6 +24,8 @@ scoreboard objectives add npe_spawner_check minecraft.used:minecraft.spawner
 scoreboard objectives add npe_difficulty dummy "Current Difficulty"
 # scoreboard objectives add npe_is_multiplayer dummy
 
+scoreboard objectives add npe_hra_scoreboard dummy
+
 execute store result score .WORLDDIFFICULTY. npe_difficulty run difficulty
 execute store result score .ULTRAHARDCORE?. npe_difficulty run gamerule naturalRegeneration
 
