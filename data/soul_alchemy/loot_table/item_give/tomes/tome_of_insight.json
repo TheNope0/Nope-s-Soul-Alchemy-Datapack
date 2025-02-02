@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 7843413,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Insight\",\"translate\":\"n_soul_alchemy.item.tomes.insight_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Insight\",\"translate\":\"item.n_soul_alchemy.tome.insight_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },

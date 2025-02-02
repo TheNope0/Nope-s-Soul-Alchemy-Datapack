@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "n_soul_alchemy.advancements.oddities_research.title"
+            "translate": "advancements.n_soul_alchemy.oddities_research.title"
         },
         "description": {
-            "translate": "n_soul_alchemy.advancements.oddities_research.description"
+            "translate": "advancements.n_soul_alchemy.oddities_research.description"
         },
         "icon": {
             "id": "shulker_shell"

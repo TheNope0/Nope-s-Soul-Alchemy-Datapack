@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 7843409,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Water\",\"translate\":\"n_soul_alchemy.item.tomes.water_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Water\",\"translate\":\"item.n_soul_alchemy.tome.water_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.water_line_1",
+                      "translate": "info.n_soul_alchemy.tome.water_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -74,7 +74,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.water_line_2",
+                      "translate": "info.n_soul_alchemy.tome.water_line_2",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -83,7 +83,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.sp_line_1",
+                      "translate": "info.n_soul_alchemy.tome.sp_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     }

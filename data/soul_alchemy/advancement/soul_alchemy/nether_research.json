@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "n_soul_alchemy.advancements.nether_research.title"
+            "translate": "advancements.n_soul_alchemy.nether_research.title"
         },
         "description": {
-            "translate": "n_soul_alchemy.advancements.nether_research.description"
+            "translate": "advancements.n_soul_alchemy.nether_research.description"
         },
         "icon": {
             "id": "blaze_rod"

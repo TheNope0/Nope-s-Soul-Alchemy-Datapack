@@ -1,4 +1,4 @@
-execute if score @s npe_current_move_speed matches ..-20 run return run tellraw @s {"translate": "n_soul_alchemy.inform.no_decrease","color": "red"}
+execute if score @s npe_current_move_speed matches ..-20 run return run tellraw @s {"translate": "info.n_soul_alchemy.no_decrease","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-4% ","color": "red"},{"text":"\uEE01","font": "soul_alchemy:chat_mojo","color": "white"}]
@@ -125,7 +125,7 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -9 run attribute @s movement_speed base set 0.06
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -9 run tellraw @s [{"translate":"n_soul_alchemy.inform.speed_decrease","color": "red"}]
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -9 run tellraw @s [{"translate":"info.n_soul_alchemy.speed_decrease","color": "red"}]
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -9 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -10
 

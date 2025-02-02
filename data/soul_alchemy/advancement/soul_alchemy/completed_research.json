@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "n_soul_alchemy.advancements.completed_research.title"
+            "translate": "advancements.n_soul_alchemy.completed_research.title"
         },
         "description": {
-            "translate": "n_soul_alchemy.advancements.completed_research.description"
+            "translate": "advancements.n_soul_alchemy.completed_research.description"
         },
         "icon": {
             "id": "enchanted_book"

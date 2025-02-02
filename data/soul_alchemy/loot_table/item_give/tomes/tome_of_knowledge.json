@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 7843412,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"n_soul_alchemy.item.tomes.knowledge_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"item.n_soul_alchemy.tome.knowledge_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -31,7 +31,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.inform.crafting_recipe_page_1",
+                      "translate": "info.n_soul_alchemy.crafting_recipe_page_1",
                       "color": "black",
                       "font": "minecraft:default"
                     }

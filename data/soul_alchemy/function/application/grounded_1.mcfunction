@@ -1,8 +1,8 @@
-execute if entity @s[tag=prohibit_elytra] run return run tellraw @s {"translate": "n_soul_alchemy.inform.prohibition_already_disabled","color": "red"}
+execute if entity @s[tag=prohibit_elytra] run return run tellraw @s {"translate": "info.n_soul_alchemy.prohibition_already_disabled","color": "red"}
 
 scoreboard players add @s npe_soul_points 20
 
-tellraw @s {"translate": "n_soul_alchemy.inform.prohibition_disabled","color": "red"}
+tellraw @s {"translate": "info.n_soul_alchemy.prohibition_disabled","color": "red"}
 
 tag @s add prohibit_elytra
 

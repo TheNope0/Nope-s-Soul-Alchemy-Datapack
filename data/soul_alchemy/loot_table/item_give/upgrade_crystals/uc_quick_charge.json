@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 4,
                                 "rarity": "rare",
-                                "item_name": "{\"translate\":\"n_soul_alchemy.item.upgrade_crystal\"}",
+                                "item_name": "{\"translate\":\"item.n_soul_alchemy.upgrade_crystal\"}",
                                 "lore": [
-                                    "{\"translate\":\"n_soul_alchemy.item.uc_quick_charge\",\"color\": \"white\",\"italic\":false}"
+                                    "{\"translate\":\"item.n_soul_alchemy.uc_quick_charge\",\"color\": \"white\",\"italic\":false}"
                                 ],
                                 "custom_model_data": 7843404,
                                 "consumable": {

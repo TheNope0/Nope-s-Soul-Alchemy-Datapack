@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Medium XP Package\",\"translate\":\"n_soul_alchemy.item.xp_storage.medium\"}",
+                                "item_name": "{\"fallback\":\"Medium XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.medium\"}",
                                 "lore": [
-                                    "{\"translate\":\"n_soul_alchemy.item.xp_storage_lore.medium\"}"
+                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.medium\"}"
                                 ],
                                 "custom_model_data": 7843406,
                                 "consumable": {

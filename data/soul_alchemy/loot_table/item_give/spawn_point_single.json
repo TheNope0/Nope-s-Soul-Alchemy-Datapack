@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 4,
                                 "rarity": "uncommon",
-                                "item_name": "{\"translate\":\"n_soul_alchemy.item.spawn_point\"}",
+                                "item_name": "{\"translate\":\"item.n_soul_alchemy.spawn_point\"}",
                                 "lore": [
-                                    "{\"translate\":\"n_soul_alchemy.item.spawn_point_single\"}"
+                                    "{\"translate\":\"item.n_soul_alchemy.spawn_point_single\"}"
                                 ],
                                 "custom_model_data": 7843400,
                                 "consumable": {

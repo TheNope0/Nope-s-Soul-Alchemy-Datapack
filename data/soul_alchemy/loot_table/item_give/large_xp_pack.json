@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Large XP Package\",\"translate\":\"n_soul_alchemy.item.xp_storage.large\"}",
+                                "item_name": "{\"fallback\":\"Large XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.large\"}",
                                 "lore": [
-                                    "{\"translate\":\"n_soul_alchemy.item.xp_storage_lore.large\"}"
+                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.large\"}"
                                 ],
                                 "custom_model_data": 7843407,
                                 "consumable": {

@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 7843403,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Heart\",\"translate\":\"n_soul_alchemy.item.tomes.hearts_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Heart\",\"translate\":\"item.n_soul_alchemy.tome.hearts_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.health_line_1",
+                      "translate": "info.n_soul_alchemy.tome.health_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -74,7 +74,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.sp_line_2",
+                      "translate": "info.n_soul_alchemy.tome.sp_line_2",
                       "color": "black",
                       "font": "minecraft:default"
                     }

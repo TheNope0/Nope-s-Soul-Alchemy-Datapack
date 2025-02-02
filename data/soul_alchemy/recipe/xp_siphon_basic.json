@@ -18,7 +18,7 @@
         "components": {
             "max_stack_size": 1,
             "rarity": "uncommon",
-            "item_name": "{\"translate\": \"n_soul_alchemy.item.xp_siphon.basic\",\"fallback\": \"Basic XP Siphon\"}",
+            "item_name": "{\"translate\": \"item.n_soul_alchemy.xp_siphon.basic\",\"fallback\": \"Basic XP Siphon\"}",
             "custom_model_data": 7843401,
             "consumable": {
                 "consume_seconds": 2147483647,

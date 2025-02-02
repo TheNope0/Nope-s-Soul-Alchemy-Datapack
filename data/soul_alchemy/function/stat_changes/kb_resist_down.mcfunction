@@ -1,4 +1,4 @@
-execute if score @s npe_current_kb_resistance matches ..0 run return run tellraw @s {"translate": "n_soul_alchemy.inform.no_decrease","color": "red"}
+execute if score @s npe_current_kb_resistance matches ..0 run return run tellraw @s {"translate": "info.n_soul_alchemy.no_decrease","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-10% ","color": "red"},{"text":"\uEE08","font": "soul_alchemy:chat_mojo","color": "white"}]

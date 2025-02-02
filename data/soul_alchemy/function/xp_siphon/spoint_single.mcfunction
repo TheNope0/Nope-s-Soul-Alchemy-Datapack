@@ -1,5 +1,5 @@
 spawnpoint @s ~ ~ ~
-tellraw @s {"translate": "n_soul_alchemy.inform.spawnpoint_set"}
+tellraw @s {"translate": "info.n_soul_alchemy.spawnpoint_set"}
 
 clear @s compass[minecraft:custom_data={single_use_spoint: 1b}] 1
 

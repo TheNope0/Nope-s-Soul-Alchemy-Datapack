@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:custom_model_data": 7843407,
-                "minecraft:item_name": "{\"fallback\":\"Tome of Reach\",\"translate\":\"n_soul_alchemy.item.tomes.reach_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Reach\",\"translate\":\"item.n_soul_alchemy.tome.reach_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.reach_line_1",
+                      "translate": "info.n_soul_alchemy.tome.reach_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -74,7 +74,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.reach_line_2",
+                      "translate": "info.n_soul_alchemy.tome.reach_line_2",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -83,7 +83,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "n_soul_alchemy.tome.sp_line_5",
+                      "translate": "info.n_soul_alchemy.tome.sp_line_5",
                       "color": "black",
                       "font": "minecraft:default"
                     }

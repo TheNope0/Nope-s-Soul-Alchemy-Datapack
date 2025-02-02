@@ -1,11 +1,11 @@
-execute if entity @s[tag=prohibit_armor_1] run return run tellraw @s {"translate": "n_soul_alchemy.inform.heavy_armor_already_disable_1","color": "red"}
+execute if entity @s[tag=prohibit_armor_1] run return run tellraw @s {"translate": "info.n_soul_alchemy.heavy_armor_already_disable_1","color": "red"}
 
 execute unless entity @s[tag=prohibit_armor_2] run scoreboard players add @s npe_soul_points 5
 
-execute if entity @s[tag=prohibit_armor_2] if score @s npe_soul_points matches ..4 run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
+execute if entity @s[tag=prohibit_armor_2] if score @s npe_soul_points matches ..4 run return run tellraw @s {"translate": "info.n_soul_alchemy.not_enough_sp","color": "red"}
 execute if entity @s[tag=prohibit_armor_2] run scoreboard players remove @s npe_soul_points 5
 
-tellraw @s {"translate": "n_soul_alchemy.inform.heavy_armor_disable_1","color": "red"}
+tellraw @s {"translate": "info.n_soul_alchemy.heavy_armor_disable_1","color": "red"}
 
 tag @s add prohibit_armor_1
 tag @s remove prohibit_armor_2

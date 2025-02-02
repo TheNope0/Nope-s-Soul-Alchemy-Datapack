@@ -3,7 +3,7 @@ scoreboard players set @s npe_soul_shears_cooldown 15
 advancement revoke @s only soul_alchemy:unspoken/siphon/soul_shear_cooldown
 
 execute if score @s npe_soul_points matches ..0 run scoreboard players add @s npe_soul_shears_cooldown 145
-execute if score @s npe_soul_points matches ..0 run return run tellraw @s {"translate": "n_soul_alchemy.inform.not_enough_sp","color": "red"}
+execute if score @s npe_soul_points matches ..0 run return run tellraw @s {"translate": "info.n_soul_alchemy.not_enough_sp","color": "red"}
 
 execute unless predicate soul_alchemy:unbreakable unless predicate soul_alchemy:soul_shears run item modify entity @s weapon.mainhand {function:"set_damage",damage:-0.26,add:true}
 execute unless predicate soul_alchemy:unbreakable if predicate soul_alchemy:soul_shears run item modify entity @s weapon.mainhand {function:"set_damage",damage:-0.004,add:true}
