@@ -17,7 +17,7 @@
         "components": {
             "rarity": "uncommon",
             "item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"item.n_soul_alchemy.tome.knowledge_tome\"}",
-            "custom_model_data": 7843412,
+            "item_model": "soul_alchemy:tome_of_knowledge",
             "written_book_content": {
                 "pages": [
                     {

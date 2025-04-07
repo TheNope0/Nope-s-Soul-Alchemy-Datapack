@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843402,
+                "minecraft:item_model": "soul_alchemy:tome_of_agility",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Agility\",\"translate\":\"item.n_soul_alchemy.tome.jump_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

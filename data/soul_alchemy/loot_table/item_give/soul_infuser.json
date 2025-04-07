@@ -18,7 +18,7 @@
                                 "max_stack_size": 64,
                                 "rarity": "uncommon",
                                 "item_name": "{\"translate\": \"block.n_soul_alchemy.soul_infuser\",\"fallback\": \"Soul Infuser\"}",
-                                "custom_model_data": 7843400,
+                                "item_model": "soul_alchemy:soul_infuser",
                                 "entity_data": {
                                     "id": "armor_stand",
                                     "Tags": [

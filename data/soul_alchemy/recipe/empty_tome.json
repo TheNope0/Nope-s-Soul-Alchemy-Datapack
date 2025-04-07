@@ -18,7 +18,7 @@
             "max_stack_size": 16,
             "rarity": "common",
             "item_name": "{\"translate\": \"item.n_soul_alchemy.tome.empty_tome\",\"fallback\": \"Empty Tome\"}",
-            "custom_model_data": 7843400,
+            "item_model": "soul_alchemy:empty_tome",
             "custom_data": {
                 "empty_tome":1
             }

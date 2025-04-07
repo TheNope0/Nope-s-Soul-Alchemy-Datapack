@@ -22,7 +22,7 @@ execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard m
 execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 41 run gamemode survival @s
 execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 41 run advancement grant @s only minecraft:adventure/totem_of_undying
 execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 41 run tag @n[type=item_display,tag=respawning] remove hardcore_respawn_anchor
-execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 41 run data modify entity @n[type=item_display,tag=respawning] item.components.minecraft:custom_model_data set value 7843401
+execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 41 run data modify entity @n[type=item_display,tag=respawning] item.components.minecraft:item_model set value "soul_alchemy:statue_base"
 
 execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 31 run playsound minecraft:entity.lightning_bolt.thunder player @a ~ ~ ~ 1000 0.5 1
 execute at @e[type=item_display,tag=respawning] if score @s npe_hra_scoreboard matches 1 run playsound minecraft:entity.zombie_villager.converted player @a ~ ~ ~ 50 .1 1

@@ -21,7 +21,7 @@
             "max_stack_size": 1,
             "rarity": "rare",
             "item_name": "{\"translate\": \"item.n_soul_alchemy.soul_shears\",\"fallback\": \"Soul Shears\"}",
-            "custom_model_data": 7843400,
+            "item_model": "soul_alchemy:soul_shears",
             "custom_data": {
                 "soul_shears":1
             },

@@ -10,7 +10,7 @@
         "icon": {
             "id": "minecraft:rotten_flesh",
             "components": {
-                "custom_model_data": 7843400
+                "item_model": "soul_alchemy:soul_shard"
             }
         },
         "announce_to_chat": false,

@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843408,
+                "minecraft:item_model": "soul_alchemy:tome_of_stability",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Stability\",\"translate\":\"item.n_soul_alchemy.tome.knockback_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

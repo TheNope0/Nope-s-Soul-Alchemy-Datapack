@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843410,
+                "minecraft:item_model": "soul_alchemy:tome_of_luck",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Luck\",\"translate\":\"item.n_soul_alchemy.tome.luck_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

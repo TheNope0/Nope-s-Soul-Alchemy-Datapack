@@ -1,7 +1,7 @@
 {
     "function": "set_components",
     "components": {
-        "minecraft:custom_model_data": 7843400,
+        "minecraft:item_model": "soul_alchemy:fishaxe",
         "minecraft:item_name": "{\"translate\": \"item.n_soul_alchemy.custom_model.fishaxe\",\"fallback\": \"Fishaxe\"}"
     }
 }

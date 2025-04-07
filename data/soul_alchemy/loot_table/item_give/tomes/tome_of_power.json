@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843400,
+                "minecraft:item_model": "soul_alchemy:tome_of_power",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Power\",\"translate\":\"item.n_soul_alchemy.tome.strength_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

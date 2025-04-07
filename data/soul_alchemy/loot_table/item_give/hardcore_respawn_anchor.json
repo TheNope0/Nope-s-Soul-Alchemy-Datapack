@@ -18,7 +18,7 @@
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
                                 "item_name": "{\"translate\": \"block.n_soul_alchemy.hardcore_respawn_anchor\",\"fallback\": \"HRA\"}",
-                                "custom_model_data": 7843402,
+                                "item_model": "soul_alchemy:hardcore_respawn_anchor",
                                 "entity_data": {
                                     "id": "armor_stand",
                                     "Tags": [

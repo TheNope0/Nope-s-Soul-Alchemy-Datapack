@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843405,
+                "minecraft:item_model": "soul_alchemy:tome_of_iron",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Iron\",\"translate\":\"item.n_soul_alchemy.tome.armor_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

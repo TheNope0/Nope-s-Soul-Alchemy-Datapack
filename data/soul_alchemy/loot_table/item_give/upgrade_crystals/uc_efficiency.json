@@ -21,7 +21,7 @@
                                 "lore": [
                                     "{\"translate\":\"item.n_soul_alchemy.uc_efficiency\",\"color\": \"white\",\"italic\":false}"
                                 ],
-                                "custom_model_data": 7843400,
+                                "item_model": "soul_alchemy:enchantment_upgrade_crystal",
                                 "consumable": {
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false

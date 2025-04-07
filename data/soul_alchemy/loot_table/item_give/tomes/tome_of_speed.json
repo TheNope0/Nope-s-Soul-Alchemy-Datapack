@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843401,
+                "minecraft:item_model": "soul_alchemy:tome_of_speed",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Speed\",\"translate\":\"item.n_soul_alchemy.tome.speed_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

@@ -18,7 +18,7 @@
                                 "max_stack_size": 64,
                                 "rarity": "rare",
                                 "item_name": "{\"fallback\":\"Soul Shard\",\"translate\":\"item.n_soul_alchemy.soul_shard\"}",
-                                "custom_model_data": 7843400,
+                                "item_model": "soul_alchemy:soul_shard",
                                 "consumable": {
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false

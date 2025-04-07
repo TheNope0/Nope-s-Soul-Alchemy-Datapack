@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843411,
+                "minecraft:item_model": "soul_alchemy:tome_of_height",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Height\",\"translate\":\"item.n_soul_alchemy.tome.height_tome\"}",
                 "minecraft:rarity": "uncommon"
               }

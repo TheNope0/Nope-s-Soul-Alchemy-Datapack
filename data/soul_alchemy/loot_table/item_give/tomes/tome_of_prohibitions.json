@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:custom_model_data": 7843415,
+                "minecraft:item_model": "soul_alchemy:tome_of_prohibitions",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Prohibitions\",\"translate\":\"item.n_soul_alchemy.tome.prohibition_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
