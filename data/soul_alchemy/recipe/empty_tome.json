@@ -12,7 +12,7 @@
         "B": "#soul_alchemy:common_mob_drops"
     },
     "result": {
-        "count": 1,
+        "count": 4,
         "id": "book",
         "components": {
             "max_stack_size": 16,
