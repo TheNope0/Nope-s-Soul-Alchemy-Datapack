@@ -1,6 +1,6 @@
 spawnpoint @s ~ ~ ~
 tellraw @s {"translate": "info.n_soul_alchemy.spawnpoint_set"}
 
-clear @s compass[minecraft:custom_data={single_use_spoint: 1b}] 1
+clear @s poisonous_potato[minecraft:custom_data={single_use_spoint: 1b}] 1
 
 advancement revoke @s only soul_alchemy:unspoken/siphon/spoint_single
