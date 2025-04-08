@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "compass",
+                    "name": "poisonous_potato",
                     "functions": [
                         {
                             "function": "set_count",

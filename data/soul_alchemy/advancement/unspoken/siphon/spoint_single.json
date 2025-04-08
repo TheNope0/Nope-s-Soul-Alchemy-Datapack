@@ -5,7 +5,7 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "compass"
+                        "poisonous_potato"
                     ],
                     "components": {
                         "custom_data": {
