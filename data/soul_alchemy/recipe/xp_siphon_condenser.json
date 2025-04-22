@@ -2,16 +2,16 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "iai",
+        "iri",
         "BLB",
-        "iei"
+        "igi"
     ],
     "key": {
         "B": "glass_bottle",
         "i": "iron_ingot",
         "L": "lapis_lazuli",
-        "a": "amethyst_shard",
-        "e": "echo_shard"
+        "g": "golden_apple",
+        "r": "rotten_flesh"
     },
     "result": {
         "count": 1,

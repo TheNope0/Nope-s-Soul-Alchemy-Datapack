@@ -2,13 +2,14 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "aBi",
+        "igi",
         "BLB",
-        "iBa"
+        "iai"
     ],
     "key": {
         "B": "glass_bottle",
-        "i": "glow_ink_sac",
+        "i": "iron_ingot",
+        "g": "glow_ink_sac",
         "a": "amethyst_shard",
         "L": "lapis_lazuli"
     },

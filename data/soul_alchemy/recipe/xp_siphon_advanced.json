@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "aBi",
+        "igi",
         "BLB",
-        "iBa"
+        "iei"
     ],
     "key": {
         "B": "glass_bottle",
-        "i": "ghast_tear",
-        "a": "ender_eye",
+        "i": "iron_ingot",
+        "g": "ghast_tear",
+        "e": "ender_eye",
         "L": "lapis_lazuli"
     },
     "result": {

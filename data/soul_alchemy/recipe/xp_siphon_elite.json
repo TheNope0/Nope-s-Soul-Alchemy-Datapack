@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "category": "misc",
     "pattern": [
-        "aBi",
+        "isi",
         "BLB",
-        "iBa"
+        "iei"
     ],
     "key": {
         "B": "glass_bottle",
-        "i": "echo_shard",
-        "a": "shulker_shell",
+        "i": "iron_ingot",
+        "e": "echo_shard",
+        "s": "shulker_shell",
         "L": "lapis_lazuli"
     },
     "result": {
