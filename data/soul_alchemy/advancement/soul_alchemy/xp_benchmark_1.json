@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "advancements.n_soul_alchemy.xp1.title"
+            "translate": "advancements.soul_alchemy.xp1.title"
         },
         "description": {
-            "translate": "advancements.n_soul_alchemy.xp1.description"
+            "translate": "advancements.soul_alchemy.xp1.description"
         },
         "icon": {
             "id": "experience_bottle"

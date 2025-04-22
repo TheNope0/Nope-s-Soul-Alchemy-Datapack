@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 4,
                                 "rarity": "rare",
-                                "item_name": "{\"translate\":\"item.n_soul_alchemy.upgrade_crystal\"}",
+                                "item_name": "{\"translate\":\"item.soul_alchemy.upgrade_crystal\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.uc_efficiency\",\"color\": \"white\",\"italic\":false}"
+                                    "{\"translate\":\"item.soul_alchemy.uc_efficiency\",\"color\": \"white\",\"italic\":false}"
                                 ],
                                 "item_model": "soul_alchemy:enchantment_upgrade_crystal",
                                 "consumable": {

@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "soul_alchemy:tome_of_height",
-                "minecraft:item_name": "{\"fallback\":\"Tome of Height\",\"translate\":\"item.n_soul_alchemy.tome.height_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Height\",\"translate\":\"item.soul_alchemy.tome.height_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "info.n_soul_alchemy.tome.height_line_1",
+                      "translate": "info.soul_alchemy.tome.height_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     }

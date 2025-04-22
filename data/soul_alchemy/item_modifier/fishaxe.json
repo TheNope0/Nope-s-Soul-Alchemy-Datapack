@@ -2,6 +2,6 @@
     "function": "set_components",
     "components": {
         "minecraft:item_model": "soul_alchemy:fishaxe",
-        "minecraft:item_name": "{\"translate\": \"item.n_soul_alchemy.custom_model.fishaxe\",\"fallback\": \"Fishaxe\"}"
+        "minecraft:item_name": "{\"translate\": \"item.soul_alchemy.custom_model.fishaxe\",\"fallback\": \"Fishaxe\"}"
     }
 }

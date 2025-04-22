@@ -1,12 +1,12 @@
-execute if entity @s[tag=permanent_infested] run return run tellraw @s {"translate": "info.n_soul_alchemy.effect_already_permanent","color": "gray"}
+execute if entity @s[tag=permanent_infested] run return run tellraw @s {"translate": "info.soul_alchemy.effect_already_permanent","color": "gray"}
 
 
 execute if entity @s[tag=deactivate_infested] run scoreboard players add @s npe_soul_points 4
-execute if entity @s[tag=deactivate_infested] run tellraw @s {"translate": "info.n_soul_alchemy.effect_permanent","color": "gray"}
+execute if entity @s[tag=deactivate_infested] run tellraw @s {"translate": "info.soul_alchemy.effect_permanent","color": "gray"}
 execute if entity @s[tag=deactivate_infested] run tag @s add permanent_infested
 execute if entity @s[tag=deactivate_infested] run return run tag @s remove deactivate_infested
 
 
 scoreboard players add @s npe_soul_points 2
-tellraw @s {"translate": "info.n_soul_alchemy.effect_permanent","color": "gray"}
+tellraw @s {"translate": "info.soul_alchemy.effect_permanent","color": "gray"}
 tag @s add permanent_infested

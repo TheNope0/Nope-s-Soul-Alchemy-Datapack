@@ -1,6 +1,6 @@
 execute if entity @s[advancements={soul_alchemy:soul_alchemy/xp_benchmark_7=true}] run playsound entity.item.break player @s ~ ~ ~
 execute if entity @s[advancements={soul_alchemy:soul_alchemy/xp_benchmark_7=true}] run xp add @s 100
-execute if entity @s[advancements={soul_alchemy:soul_alchemy/xp_benchmark_7=true}] run tellraw @s {"translate": "info.n_soul_alchemy.xp_siphon.advancement.max","color": "red"}
+execute if entity @s[advancements={soul_alchemy:soul_alchemy/xp_benchmark_7=true}] run tellraw @s {"translate": "info.soul_alchemy.xp_siphon.advancement.max","color": "red"}
 execute if entity @s[advancements={soul_alchemy:soul_alchemy/xp_benchmark_7=true}] run return run clear @s book[minecraft:custom_data={advancement_xp_siphon:1b}] 1
 
 scoreboard players set @s npe_xp_advancement_cooldown 20

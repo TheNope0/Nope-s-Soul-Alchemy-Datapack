@@ -1,4 +1,4 @@
-execute if score @s npe_current_luck matches ..-4 run return run tellraw @s {"translate": "info.n_soul_alchemy.no_decrease","color": "red"}
+execute if score @s npe_current_luck matches ..-4 run return run tellraw @s {"translate": "info.soul_alchemy.no_decrease","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"-25% ","color": "red"},{"text":"\uEE0A","font": "soul_alchemy:chat_mojo","color": "white"}]

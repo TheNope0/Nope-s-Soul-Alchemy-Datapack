@@ -1,5 +1,5 @@
-execute if score @s npe_current_damage matches 10.. run return run tellraw @s {"translate": "info.n_soul_alchemy.no_increase","color": "red"}
-execute unless score @s npe_soul_points matches 3.. run return run tellraw @s {"translate": "info.n_soul_alchemy.not_enough_sp","color": "red"}
+execute if score @s npe_current_damage matches 10.. run return run tellraw @s {"translate": "info.soul_alchemy.no_increase","color": "red"}
+execute unless score @s npe_soul_points matches 3.. run return run tellraw @s {"translate": "info.soul_alchemy.not_enough_sp","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"+1 ","color": "dark_green"},{"text":"\uEE00","font": "soul_alchemy:chat_mojo","color": "white"}]

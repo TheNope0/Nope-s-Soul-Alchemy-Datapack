@@ -18,9 +18,9 @@
                                 "!food": {},
                                 "max_stack_size": 1,
                                 "rarity": "uncommon",
-                                "item_name": "{\"translate\":\"item.n_soul_alchemy.spawn_point\"}",
+                                "item_name": "{\"translate\":\"item.soul_alchemy.spawn_point\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.spawn_point_infinite\"}"
+                                    "{\"translate\":\"item.soul_alchemy.spawn_point_infinite\"}"
                                 ],
                                 "item_model": "soul_alchemy:psp_infinite",
                                 "consumable": {

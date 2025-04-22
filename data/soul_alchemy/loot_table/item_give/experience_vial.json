@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Small XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.vial\"}",
+                                "item_name": "{\"fallback\":\"Small XP Package\",\"translate\":\"item.soul_alchemy.xp_storage.vial\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.vial\"}"
+                                    "{\"translate\":\"item.soul_alchemy.xp_storage_lore.vial\"}"
                                 ],
                                 "item_model": "soul_alchemy:experience_vial",
                                 "consumable": {

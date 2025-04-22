@@ -16,7 +16,7 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "soul_alchemy:tome_of_power",
-                "minecraft:item_name": "{\"fallback\":\"Tome of Power\",\"translate\":\"item.n_soul_alchemy.tome.strength_tome\"}",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Power\",\"translate\":\"item.soul_alchemy.tome.strength_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
             },
@@ -65,7 +65,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "info.n_soul_alchemy.tome.power_line_1",
+                      "translate": "info.soul_alchemy.tome.power_line_1",
                       "color": "black",
                       "font": "minecraft:default"
                     },
@@ -74,7 +74,7 @@
                       "font": "minecraft:default"
                     },
                     {
-                      "translate": "info.n_soul_alchemy.tome.sp_line_3",
+                      "translate": "info.soul_alchemy.tome.sp_line_3",
                       "color": "black",
                       "font": "minecraft:default"
                     }

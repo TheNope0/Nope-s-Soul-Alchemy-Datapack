@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "advancements.n_soul_alchemy.undead_research.title"
+            "translate": "advancements.soul_alchemy.undead_research.title"
         },
         "description": {
-            "translate": "advancements.n_soul_alchemy.undead_research.description"
+            "translate": "advancements.soul_alchemy.undead_research.description"
         },
         "icon": {
             "id": "rotten_flesh"

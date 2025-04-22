@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "advancements.n_soul_alchemy.sentients_research.title"
+            "translate": "advancements.soul_alchemy.sentients_research.title"
         },
         "description": {
-            "translate": "advancements.n_soul_alchemy.sentients_research.description"
+            "translate": "advancements.soul_alchemy.sentients_research.description"
         },
         "icon": {
             "id": "fishing_rod"

@@ -16,12 +16,12 @@
         "id": "written_book",
         "components": {
             "rarity": "uncommon",
-            "item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"item.n_soul_alchemy.tome.knowledge_tome\"}",
+            "item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"item.soul_alchemy.tome.knowledge_tome\"}",
             "item_model": "soul_alchemy:tome_of_knowledge",
             "written_book_content": {
                 "pages": [
                     {
-                        "raw": "{\"text\": \"\uEE0D\",\"extra\": [{\"text\": \"\n\n    \",\"font\": \"minecraft:default\"},{\"translate\": \"info.n_soul_alchemy.crafting_recipe_page_1\",\"color\": \"black\",\"font\": \"minecraft:default\"}],\"color\": \"white\",\"font\": \"soul_alchemy:tome_pages\"}"
+                        "raw": "{\"text\": \"\uEE0D\",\"extra\": [{\"text\": \"\n\n    \",\"font\": \"minecraft:default\"},{\"translate\": \"info.soul_alchemy.crafting_recipe_page_1\",\"color\": \"black\",\"font\": \"minecraft:default\"}],\"color\": \"white\",\"font\": \"soul_alchemy:tome_pages\"}"
                     },
                     {
                       "raw": "{\"text\": \"\\uee10\", \"color\": \"white\", \"font\": \"soul_alchemy:tome_pages\"}"

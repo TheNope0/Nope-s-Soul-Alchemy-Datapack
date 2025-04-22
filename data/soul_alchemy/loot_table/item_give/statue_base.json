@@ -17,7 +17,7 @@
                             "components": {
                                 "max_stack_size": 64,
                                 "rarity": "uncommon",
-                                "item_name": "{\"translate\": \"block.n_soul_alchemy.statue_base\",\"fallback\": \"Statue Base\"}",
+                                "item_name": "{\"translate\": \"block.soul_alchemy.statue_base\",\"fallback\": \"Statue Base\"}",
                                 "item_model": "soul_alchemy:statue_base",
                                 "custom_data": {
                                     "statue_base":1

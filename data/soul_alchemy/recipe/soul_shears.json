@@ -20,7 +20,7 @@
         "components": {
             "max_stack_size": 1,
             "rarity": "rare",
-            "item_name": "{\"translate\": \"item.n_soul_alchemy.soul_shears\",\"fallback\": \"Soul Shears\"}",
+            "item_name": "{\"translate\": \"item.soul_alchemy.soul_shears\",\"fallback\": \"Soul Shears\"}",
             "item_model": "soul_alchemy:soul_shears",
             "custom_data": {
                 "soul_shears":1

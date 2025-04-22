@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Large XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.beaker\"}",
+                                "item_name": "{\"fallback\":\"Large XP Package\",\"translate\":\"item.soul_alchemy.xp_storage.beaker\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.beaker\"}"
+                                    "{\"translate\":\"item.soul_alchemy.xp_storage_lore.beaker\"}"
                                 ],
                                 "item_model": "soul_alchemy:experience_beaker",
                                 "consumable": {

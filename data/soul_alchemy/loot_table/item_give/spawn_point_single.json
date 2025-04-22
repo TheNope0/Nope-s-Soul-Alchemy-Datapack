@@ -17,9 +17,9 @@
                             "components": {
                                 "max_stack_size": 4,
                                 "rarity": "uncommon",
-                                "item_name": "{\"translate\":\"item.n_soul_alchemy.spawn_point\"}",
+                                "item_name": "{\"translate\":\"item.soul_alchemy.spawn_point\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.spawn_point_single\"}"
+                                    "{\"translate\":\"item.soul_alchemy.spawn_point_single\"}"
                                 ],
                                 "item_model": "soul_alchemy:psp_single",
                                 "consumable": {

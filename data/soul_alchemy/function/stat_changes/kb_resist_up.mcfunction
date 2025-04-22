@@ -1,5 +1,5 @@
-execute if score @s npe_current_kb_resistance matches 5.. run return run tellraw @s {"translate": "info.n_soul_alchemy.no_increase","color": "red"}
-execute unless score @s npe_soul_points matches 2.. run return run tellraw @s {"translate": "info.n_soul_alchemy.not_enough_sp","color": "red"}
+execute if score @s npe_current_kb_resistance matches 5.. run return run tellraw @s {"translate": "info.soul_alchemy.no_increase","color": "red"}
+execute unless score @s npe_soul_points matches 2.. run return run tellraw @s {"translate": "info.soul_alchemy.not_enough_sp","color": "red"}
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"+10% ","color": "dark_green"},{"text":"\uEE08","font": "soul_alchemy:chat_mojo","color": "white"}]

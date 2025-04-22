@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "translate": "advancements.n_soul_alchemy.ender_research.title"
+            "translate": "advancements.soul_alchemy.ender_research.title"
         },
         "description": {
-            "translate": "advancements.n_soul_alchemy.ender_research.description"
+            "translate": "advancements.soul_alchemy.ender_research.description"
         },
         "icon": {
             "id": "ender_pearl"

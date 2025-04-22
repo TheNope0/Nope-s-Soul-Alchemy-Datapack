@@ -1,11 +1,11 @@
 {
     "display": {
         "title": {
-            "translate": "advancements.n_soul_alchemy.root.title",
+            "translate": "advancements.soul_alchemy.root.title",
             "fallback": "MISSING RESOURCE PACK"
         },
         "description": {
-            "translate": "advancements.n_soul_alchemy.root.description"
+            "translate": "advancements.soul_alchemy.root.description"
         },
         "icon": {
             "id": "minecraft:rotten_flesh",

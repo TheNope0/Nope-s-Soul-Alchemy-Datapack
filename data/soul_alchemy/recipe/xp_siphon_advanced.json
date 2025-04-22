@@ -18,7 +18,7 @@
         "components": {
             "max_stack_size": 1,
             "rarity": "uncommon",
-            "item_name": "{\"translate\": \"item.n_soul_alchemy.xp_siphon.advanced\",\"fallback\": \"Advanced XP Siphon\"}",
+            "item_name": "{\"translate\": \"item.soul_alchemy.xp_siphon.advanced\",\"fallback\": \"Advanced XP Siphon\"}",
             "item_model": "soul_alchemy:siphon_advanced",
             "consumable": {
                 "consume_seconds": 2147483647,
