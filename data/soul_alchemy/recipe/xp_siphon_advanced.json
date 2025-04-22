@@ -20,6 +20,7 @@
             "rarity": "uncommon",
             "item_name": "{\"translate\": \"item.soul_alchemy.xp_siphon.advanced\",\"fallback\": \"Advanced XP Siphon\"}",
             "item_model": "soul_alchemy:siphon_advanced",
+            "enchantment_glint_override": true,
             "consumable": {
                 "consume_seconds": 2147483647,
                 "has_consume_particles": false
