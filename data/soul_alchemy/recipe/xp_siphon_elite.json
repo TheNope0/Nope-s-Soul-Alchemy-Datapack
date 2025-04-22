@@ -19,7 +19,7 @@
             "max_stack_size": 1,
             "rarity": "uncommon",
             "item_name": "{\"translate\": \"item.n_soul_alchemy.xp_siphon.elite\",\"fallback\": \"Elite XP Siphon\"}",
-            "custom_model_data": 7843403,
+            "item_model": "soul_alchemy:siphon_elite",
             "consumable": {
                 "consume_seconds": 2147483647,
                 "has_consume_particles": false

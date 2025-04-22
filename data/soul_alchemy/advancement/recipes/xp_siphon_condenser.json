@@ -12,7 +12,7 @@
       },
       "has_the_recipe": {
         "conditions": {
-          "recipe": "soul_alchemy:xp_siphon_advancement"
+          "recipe": "soul_alchemy:xp_siphon_condenser"
         },
         "trigger": "minecraft:recipe_unlocked"
       }
@@ -25,7 +25,7 @@
     ],
     "rewards": {
       "recipes": [
-        "soul_alchemy:xp_siphon_advancement"
+        "soul_alchemy:xp_siphon_condenser"
       ]
     }
   }

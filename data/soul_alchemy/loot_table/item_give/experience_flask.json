@@ -17,17 +17,17 @@
                             "components": {
                                 "max_stack_size": 16,
                                 "rarity": "uncommon",
-                                "item_name": "{\"fallback\":\"Large XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.large\"}",
+                                "item_name": "{\"fallback\":\"Medium XP Package\",\"translate\":\"item.n_soul_alchemy.xp_storage.flask\"}",
                                 "lore": [
-                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.large\"}"
+                                    "{\"translate\":\"item.n_soul_alchemy.xp_storage_lore.flask\"}"
                                 ],
-                                "item_model": "soul_alchemy:experience_book",
+                                "item_model": "soul_alchemy:experience_flask",
                                 "consumable": {
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false
                                 },
                                 "custom_data": {
-                                    "large_xp_hold": 1
+                                    "medium_xp_hold": 1
                                 }
                             }
                         }

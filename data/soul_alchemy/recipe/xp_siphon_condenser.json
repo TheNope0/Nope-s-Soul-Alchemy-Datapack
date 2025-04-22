@@ -17,8 +17,8 @@
         "components": {
             "max_stack_size": 1,
             "rarity": "uncommon",
-            "item_name": "{\"translate\": \"item.n_soul_alchemy.xp_siphon.advancement\",\"fallback\": \"Experience Converter\"}",
-            "custom_model_data": 7843404,
+            "item_name": "{\"translate\": \"item.n_soul_alchemy.xp_siphon.condenser\",\"fallback\": \"Experience Converter\"}",
+            "item_model": "soul_alchemy:siphon_condenser",
             "consumable": {
                 "consume_seconds": 2147483647,
                 "has_consume_particles": false
