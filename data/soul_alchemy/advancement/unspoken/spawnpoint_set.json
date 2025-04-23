@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": {
+        "translate": "info.soul_alchemy.spawnpoint_set",
+        "fallback": "Spawnpoint Set"
+    },
+    "description": {
+        "text": ""
+    },
+    "icon": {
+        "id": "minecraft:compass"
+    },
+    "announce_to_chat": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "set": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "set"
+    ]
+  ]
+}
