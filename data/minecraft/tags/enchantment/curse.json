@@ -2,6 +2,7 @@
   "values": [
     "minecraft:binding_curse",
     "minecraft:vanishing_curse",
-    "soul_alchemy:soul_shearing"
+    "soul_alchemy:soul_shearing",
+    "soul_alchemy:unbreakable"
   ]
 }
