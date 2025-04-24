@@ -1,6 +1,3 @@
-execute as @a[scores={npe_current_absorption=1..}] run scoreboard players add @s npe_absorption_refresh 1
-execute as @a[scores={npe_current_absorption=1..,npe_absorption_refresh=24000..}] run function soul_alchemy:stat_changes/absorption_refresh
-
 execute as @a[scores={npe_tome_button_trigger=1..}] run function soul_alchemy:miscellaneous/tome_button_apply
 
 
