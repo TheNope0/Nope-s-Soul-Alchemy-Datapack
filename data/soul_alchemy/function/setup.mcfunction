@@ -37,26 +37,20 @@ scoreboard objectives add npe_soul_points dummy
 scoreboard objectives add npe_half_a_point dummy
 scoreboard objectives add npe_changed_stat dummy
 
-
 scoreboard objectives add npe_current_hearts dummy
 scoreboard objectives add npe_current_absorption dummy
 scoreboard objectives add npe_current_armor dummy
 scoreboard objectives add npe_current_armor_toughness dummy
-
 scoreboard objectives add npe_current_move_speed dummy
 scoreboard objectives add npe_current_jump_boost dummy
-
 scoreboard objectives add npe_current_damage dummy
 scoreboard objectives add npe_current_kb_resistance dummy
 scoreboard objectives add npe_current_player_reach dummy
-
 scoreboard objectives add npe_current_underwater dummy
 scoreboard objectives add npe_current_height dummy
 scoreboard objectives add npe_current_luck dummy
 
 scoreboard objectives add npe_tome_button_trigger trigger
-
-
 
 scoreboard objectives add npe_math_absorption dummy
 scoreboard objectives add npe_math_speed dummy
