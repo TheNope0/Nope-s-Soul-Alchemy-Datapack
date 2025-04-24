@@ -76,11 +76,15 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 5 run return run tellraw @s {"translate": "info.soul_alchemy.hc_disable.will","color": "red"}
+
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_armor_toughness matches 3 run attribute @s armor_toughness base set 4
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_armor_toughness matches 3 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_armor_toughness 4
 
 
+
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 4 run return run tellraw @s {"translate": "info.soul_alchemy.hc_disable.will","color": "red"}
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_armor_toughness matches 4 run attribute @s armor_toughness base set 5
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_armor_toughness matches 4 run scoreboard players set @s npe_changed_stat 0

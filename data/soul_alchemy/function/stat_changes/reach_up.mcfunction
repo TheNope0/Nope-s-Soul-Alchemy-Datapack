@@ -31,6 +31,8 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 5 run return run tellraw @s {"translate": "info.soul_alchemy.hc_disable.reach","color": "red"}
+
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_player_reach matches 1 run attribute @s block_interaction_range base set 5.5
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_player_reach matches 1 run attribute @s entity_interaction_range base set 3.5
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_player_reach matches 1 run scoreboard players set @s npe_changed_stat 0

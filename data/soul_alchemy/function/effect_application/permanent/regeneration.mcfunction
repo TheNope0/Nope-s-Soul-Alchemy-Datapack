@@ -1,5 +1,5 @@
+execute if score .WORLDDIFFICULTY. npe_difficulty matches 5 run return run tellraw @s {"translate": "info.soul_alchemy.uhc_disable.regeneration","color": "red"}
 execute if entity @s[tag=permanent_regeneration] run return run tellraw @s {"translate": "info.soul_alchemy.effect_already_permanent","color": "gray"}
-
 
 execute if entity @s[tag=deactivate_regeneration] unless score @s npe_soul_points matches 16.. run return run tellraw @s {"translate": "info.soul_alchemy.not_enough_sp","color": "red"}
 execute if entity @s[tag=deactivate_regeneration] run scoreboard players remove @s npe_soul_points 16
