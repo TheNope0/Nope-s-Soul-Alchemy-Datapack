@@ -50,6 +50,8 @@ scoreboard objectives add npe_current_underwater dummy
 scoreboard objectives add npe_current_height dummy
 scoreboard objectives add npe_current_luck dummy
 
+scoreboard objectives add npe_current_hunger dummy
+
 scoreboard objectives add npe_tome_button_trigger trigger
 
 scoreboard objectives add npe_math_absorption dummy

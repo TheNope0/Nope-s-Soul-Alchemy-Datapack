@@ -141,6 +141,11 @@ execute if score .trigger_temp. npe_tome_button_trigger matches 106 run function
 
 
 
+execute if score .trigger_temp. npe_tome_button_trigger matches 200 run function soul_alchemy:stat_changes/hunger_down
+execute if score .trigger_temp. npe_tome_button_trigger matches 201 run function soul_alchemy:stat_changes/hunger_up
+
+
+
 execute if score .trigger_temp. npe_tome_button_trigger matches 110 run function soul_alchemy:miscellaneous/tome_insight_reset
 
 

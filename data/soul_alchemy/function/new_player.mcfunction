@@ -25,6 +25,8 @@ scoreboard players set @s npe_current_height 0
 scoreboard players set @s npe_current_luck 0
 scoreboard players set @s npe_current_underwater 0
 
+scoreboard players set @s npe_current_hunger 10
+
 scoreboard players set @s npe_hra_scoreboard 0
 
 scoreboard players enable @s npe_tome_button_trigger

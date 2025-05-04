@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "soul_alchemy:tome_of_reach",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Hunger\",\"translate\":\"item.soul_alchemy.tome.hunger_tome\"}",
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "\uEE07",
+                  "extra": [
+                    {
+                      "text": "\n\n\n    ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE50",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 200"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Decrease Max Hunger"
+                        }
+                      }
+                    },
+                    {
+                      "text": "    ",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE51",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 201"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Increase Max Hunger"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n\n\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "translate": "info.soul_alchemy.tome.hunger_line_1",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\n\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "translate": "info.soul_alchemy.tome.sp_line_3",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

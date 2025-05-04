@@ -1,6 +1,18 @@
 {
 	"pack": {
 		"pack_format": 61,
-		"description": "Nope's Runes pack"
+		"description": "Nope's Soul Alchemy Pack"
+	},
+	"neoforge:overlays": {
+		"entries": [
+			{
+			  "neoforge:conditions": [{
+				  "type": "neoforge:mod_loaded",
+				  "modid": "nea_hunger"
+			  }],
+			  "directory": "nea_hunger_overlay",
+			  "formats": 61
+			}
+		]
 	}
 }

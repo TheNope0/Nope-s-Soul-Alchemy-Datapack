@@ -1,5 +1,7 @@
 execute unless items block ~ ~ ~ container.0 * run return -1
 
+function soul_alchemy:soul_infuser_alt/soul_infuser_recipe_check_nea_hunger
+
 execute if items block ~ ~ ~ container.0 minecraft:nether_star if items block ~ ~ ~ container.1 #minecraft:fishes[count~{min:1}] if items block ~ ~ ~ container.9 minecraft:ender_eye[count~{min:1}] if items block ~ ~ ~ container.13 #minecraft:pickaxes[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/hidden_recipe_fishaxe
 
 execute if items block ~ ~ ~ container.0 minecraft:book[custom_data~{large_xp_hold:1b},count~{min:1}] if items block ~ ~ ~ container.1 minecraft:enchanted_book[stored_enchantments~[{enchantments:"minecraft:silk_touch",levels:1}],count~{min:1}] if items block ~ ~ ~ container.9 minecraft:netherite_upgrade_smithing_template[count~{min:1}] if items block ~ ~ ~ container.10 minecraft:amethyst_cluster[count~{min:1}] if items block ~ ~ ~ container.13 minecraft:book[!custom_data,!stored_enchantments,count=1] run return run function soul_alchemy:soul_infuser_recipes/enchant_advanced_silk_touch
