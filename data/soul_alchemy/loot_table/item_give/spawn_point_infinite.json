@@ -9,10 +9,6 @@
                     "name": "poisonous_potato",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
                             "function": "set_components",
                             "components": {
                                 "!food": {},

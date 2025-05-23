@@ -9,13 +9,8 @@
                     "name": "rotten_flesh",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
                             "function": "set_components",
                             "components": {
-                                "max_stack_size": 64,
                                 "rarity": "rare",
                                 "item_name": "{\"fallback\":\"Soul Shard\",\"translate\":\"item.soul_alchemy.soul_shard\"}",
                                 "item_model": "soul_alchemy:soul_shard",

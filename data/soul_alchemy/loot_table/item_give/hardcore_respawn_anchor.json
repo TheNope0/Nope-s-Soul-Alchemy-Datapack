@@ -9,10 +9,6 @@
                     "name": "armor_stand",
                     "functions": [
                         {
-                            "function": "set_count",
-                            "count": 1
-                        },
-                        {
                             "function": "set_components",
                             "components": {
                                 "max_stack_size": 16,

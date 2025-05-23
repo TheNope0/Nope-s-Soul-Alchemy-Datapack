@@ -9,10 +9,6 @@
           "name": "minecraft:written_book",
           "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": 1
-            },
-            {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "soul_alchemy:tome_of_absorption",
