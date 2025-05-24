@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 2.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_catalyst",
+          "weight": 384
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "weight": 127
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac",
+          "functions": [
+            {
+              "function": "set_components",
+              "components": {
+                "minecraft:rarity": "rare",
+                "minecraft:item_name": "{\"fallback\":\"Warden Heart\",\"translate\":\"item.soul_alchemy.warden_heart\"}",
+                "item_model": "soul_alchemy:warden_heart",
+                "minecraft:custom_data": {
+                  "warden_heart": 1
+                }
+              }
+            }
+          ],
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/warden"
+}
