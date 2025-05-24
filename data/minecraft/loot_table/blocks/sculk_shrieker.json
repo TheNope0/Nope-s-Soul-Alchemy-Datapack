@@ -2,6 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
+      "rolls": 1.0,
       "bonus_rolls": 0.0,
       "conditions": [
         {
@@ -10,7 +11,7 @@
             "predicates": {
               "minecraft:enchantments": [
                 {
-                  "enchantments": "#soul_alchemy:silk_touch",
+                  "enchantments": "minecraft:silk_touch",
                   "levels": {
                     "min": 1
                   }
@@ -25,8 +26,86 @@
           "type": "minecraft:item",
           "name": "minecraft:sculk_shrieker"
         }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "soul_alchemy:advanced_silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "condition": "block_state_property",
+          "block": "sculk_shrieker",
+          "properties": {
+            "can_summon": "true"
+          }
+        }
       ],
-      "rolls": 1.0
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_shrieker",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_state": {
+                  "can_summon": "true"
+                },
+                "minecraft:item_name": "{\"fallback\":\"Activated Sculk Shrieker\",\"translate\":\"block.soul_alchemy.activated_sculk_shrieker\"}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "soul_alchemy:advanced_silk_touch",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "condition": "block_state_property",
+          "block": "sculk_shrieker",
+          "properties": {
+            "can_summon": "false"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sculk_shrieker"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:blocks/sculk_shrieker"
