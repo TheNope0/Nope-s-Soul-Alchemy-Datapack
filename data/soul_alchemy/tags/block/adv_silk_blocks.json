@@ -2,6 +2,8 @@
     "values": 
     [
         "budding_amethyst",
+        "cake",
+        "dirt_path",
         "farmland",
         "infested_chiseled_stone_bricks",
         "infested_cobblestone",
@@ -12,6 +14,8 @@
         "infested_stone_bricks",
         "reinforced_deepslate",
         "sculk_shrieker",
-        "spawner"
+        "spawner",
+        "suspicious_gravel",
+        "suspicious_sand"
     ]
 }
