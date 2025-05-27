@@ -23,7 +23,7 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n     Grounded\n\n     ",
+                      "text": "\n   Grounded\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -54,7 +54,7 @@
                       }
                     },
                     {
-                      "text": "\n\n     Broken Idols\n\n     ",
+                      "text": "\n\n   Broken Idols\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -85,7 +85,7 @@
                       }
                     },
                     {
-                      "text": "\n\n     Heavy Armor\n\n     ",
+                      "text": "\n\n   Heavy Armor\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
