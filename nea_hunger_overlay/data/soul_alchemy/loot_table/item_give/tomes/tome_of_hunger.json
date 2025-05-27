@@ -15,7 +15,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_model": "soul_alchemy:tome_of_reach",
+                "minecraft:item_model": "soul_alchemy:tome_of_hunger",
                 "minecraft:item_name": "{\"fallback\":\"Tome of Hunger\",\"translate\":\"item.soul_alchemy.tome.hunger_tome\"}",
                 "minecraft:rarity": "uncommon"
               }
