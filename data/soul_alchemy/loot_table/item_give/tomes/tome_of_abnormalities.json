@@ -1,0 +1,1257 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "soul_alchemy:tome_of_abnormalities",
+                "minecraft:item_name": "{\"fallback\":\"Tome of Abnormalities\",\"translate\":\"item.soul_alchemy.tome.misc_effect_tome\"}",
+                "minecraft:rarity": "uncommon"
+              }
+            },
+            {
+              "function": "minecraft:set_written_book_pages",
+              "pages": [
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Strength\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE60",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 85"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE61",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 84"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Weakness\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE62",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 91"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE63",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 90"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Resistance\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE6E",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 77"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE6F",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 76"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Fire Resistance\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE70",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 38"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE71",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 37"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                
+
+
+
+
+                
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Speed\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE64",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 83"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE65",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 82"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Slowness\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE66",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 81"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE67",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 80"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n   Jump Boost\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE68",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 55"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE69",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 54"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Levitation\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE6A",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 57"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE6B",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 56"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Slow Falling\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE6C",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 79"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE6D",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 78"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Dolphin's Grace\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE76",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 36"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE77",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 35"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Water Breathing\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE74",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 89"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE75",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 88"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Invisibility\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE7A",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 53"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE78",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 52"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE79",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 51"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Glowing\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE7D",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 41"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE7B",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 40"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE7C",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 39"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Haste\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE80",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 44"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE7E",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 43"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE7F",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 42"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Mining Fatigue\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE83",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 60"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE81",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 59"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE82",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 58"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n   Night Vision\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE86",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 65"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE84",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 64"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE85",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 63"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Blindness\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE8B",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 32"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE89",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 31"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE8A",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 30"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Darkness\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE88",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 34"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE87",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 33"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n   Regeneration\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE8E",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 75"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE8C",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 74"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE8D",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 73"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Poison\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA9"
+                    },
+                    {
+                      "text": "\uEE8F",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 70"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE90",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 69"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Wither\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA9"
+                    },
+                    {
+                      "text": "\uEE91",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 99"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE92",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 98"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Hunger\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA1",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 47"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE9F",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 46"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEEA0",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 45"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Nausea\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA9"
+                    },
+                    {
+                      "text": "\uEEA2",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 62"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEEA3",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 61"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Weaving\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE95",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 94"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE93",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 93"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE94",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 92"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Wind Charged\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE98",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 97"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE96",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 96"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE97",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 95"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Oozing\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE9B",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 68"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE99",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 67"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE9A",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 66"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Infested\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEE9E",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 50"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Permanent"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE9C",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 49"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEE9D",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 48"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+
+
+
+
+
+
+                {
+                  "text": "\uEE0D",
+                  "extra": [
+                    {
+                      "text": "\n\n\n   Raid Omen\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA4",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 72"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEEA5",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 71"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   Trial Omen\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "text": "\uEEA6",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 87"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Enable"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\uEEA7",
+                      "clickEvent": {
+                        "action": "run_command",
+                        "value": "/trigger npe_tome_button_trigger set 86"
+                      },
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "value": {
+                          "text": "Disable"
+                        }
+                      }
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
