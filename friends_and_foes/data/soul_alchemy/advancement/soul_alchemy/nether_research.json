@@ -1,0 +1,230 @@
+{
+    "display": {
+        "title": {
+            "translate": "advancements.soul_alchemy.nether_research.title"
+        },
+        "description": {
+            "translate": "advancements.soul_alchemy.nether_research.description"
+        },
+        "icon": {
+            "id": "blaze_rod"
+        },
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "frame": "task"
+    },
+    "parent": "soul_alchemy:soul_alchemy/undead_research",
+    "criteria": {
+        "blaze": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:blaze"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "ghast": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:ghast"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "hoglin": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:hoglin"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "magma_cube": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:magma_cube"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "piglin": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:piglin"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "piglin_brute": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:piglin_brute"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "strider": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:strider"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "wither": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:wither"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "wither_skeleton": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:wither_skeleton"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "zoglin": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:zoglin"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "zombified_piglin": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:zombified_piglin"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
+        "wildfire": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "friendsandfoes:wildfire"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        }
+    },
+    "requirements": [
+        [
+            "blaze"
+        ],
+        [
+            "ghast"
+        ],
+        [
+            "hoglin"
+        ],
+        [
+            "magma_cube"
+        ],
+        [
+            "piglin"
+        ],
+        [
+            "piglin_brute"
+        ],
+        [
+            "strider"
+        ],
+        [
+            "wither"
+        ],
+        [
+            "wither_skeleton"
+        ],
+        [
+            "zoglin"
+        ],
+        [
+            "zombified_piglin"
+        ],
+        [
+          "wildfire"
+        ]
+    ],
+    "rewards": {
+        "experience": 10,
+        "function": "soul_alchemy:advancement_rewards/half_a_point"
+    }
+}

@@ -6,12 +6,77 @@
 	"neoforge:overlays": {
 		"entries": [
 			{
-			  "neoforge:conditions": [{
-				  "type": "neoforge:mod_loaded",
-				  "modid": "nea_hunger"
-			  }],
-			  "directory": "nea_hunger_overlay",
-			  "formats": 61
+			  	"neoforge:conditions": [
+					{
+					  	"type": "neoforge:mod_loaded",
+					  	"modid": "nea_hunger"
+			  		}
+				],
+			  	"directory": "nea_hunger_overlay",
+			  	"formats": 61
+			},
+			{
+				"neoforge:conditions": [
+					{
+					  	"type": "neoforge:and",
+						"values": [
+							{
+					  			"type": "neoforge:mod_loaded",
+					  			"modid": "friendsandfoes"
+			  				},
+							{
+								"type": "neoforge:not",
+								"value": {
+					  				"type": "neoforge:mod_loaded",
+					  				"modid": "variantsandventures"
+			  					}
+							}
+						]
+			  		}
+				],
+			  	"directory": "friends_and_foes",
+			  	"formats": 61
+			},
+			{
+				"neoforge:conditions": [
+					{
+					  	"type": "neoforge:and",
+						"values": [
+							{
+					  			"type": "neoforge:mod_loaded",
+					  			"modid": "variantsandventures"
+			  				},
+							{
+								"type": "neoforge:not",
+								"value": {
+					  				"type": "neoforge:mod_loaded",
+					  				"modid": "friendsandfoes"
+			  					}
+							}
+						]
+			  		}
+				],
+			  	"directory": "variants_and_ventures",
+			  	"formats": 61
+			},
+			{
+				"neoforge:conditions": [
+					{
+					  	"type": "neoforge:and",
+						"values": [
+							{
+					  			"type": "neoforge:mod_loaded",
+					  			"modid": "friendsandfoes"
+			  				},
+							{
+								"type": "neoforge:mod_loaded",
+					  			"modid": "variantsandventures"
+			  				}
+						]
+			  		}
+				],
+			  	"directory": "faf_and_vav",
+			  	"formats": 61
 			}
 		]
 	}
