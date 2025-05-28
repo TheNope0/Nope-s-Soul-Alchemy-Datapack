@@ -58,20 +58,6 @@
           },
           "trigger": "minecraft:player_killed_entity"
         },
-        "illusioner": {
-          "conditions": {
-            "entity": [
-              {
-                "condition": "minecraft:entity_properties",
-                "entity": "this",
-                "predicate": {
-                  "type": "minecraft:illusioner"
-                }
-              }
-            ]
-          },
-          "trigger": "minecraft:player_killed_entity"
-        },
         "piglin": {
           "conditions": {
             "entity": [
@@ -180,9 +166,6 @@
         ],
         [
             "evoker"
-        ],
-        [
-            "illusioner"
         ],
         [
             "piglin"
