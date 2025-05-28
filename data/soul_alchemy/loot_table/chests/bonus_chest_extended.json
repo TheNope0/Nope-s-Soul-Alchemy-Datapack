@@ -7,6 +7,16 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "value": "soul_alchemy:item_give/tomes/tome_of_knowledge"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
           "value": "soul_alchemy:item_give/tomes/tome_of_height",
           "weight": 3
         },
@@ -85,8 +95,18 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "soul_alchemy:item_give/tomes/tome_of_prohibitions",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "soul_alchemy:item_give/tomes/tome_of_abnormalities",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "soul_alchemy:item_give/tomes/tome_of_reach",
-          "weight": 1
+          "weight": 2
         }
       ]
     }
