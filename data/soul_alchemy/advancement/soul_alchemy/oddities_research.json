@@ -58,6 +58,20 @@
           },
           "trigger": "minecraft:player_killed_entity"
         },
+        "creaking": {
+          "conditions": {
+            "entity": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type": "minecraft:creaking"
+                }
+              }
+            ]
+          },
+          "trigger": "minecraft:player_killed_entity"
+        },
         "creeper": {
           "conditions": {
             "entity": [
@@ -306,6 +320,9 @@
         ],
         [
             "breeze"
+        ],
+        [
+          "creaking"
         ],
         [
             "creeper"
