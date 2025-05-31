@@ -20,16 +20,6 @@
             "max_stack_size": 1,
             "rarity": "uncommon",
             "item_name": "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser\",\"fallback\": \"Wisp Condenser\"}",
-            "lore": [
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore1\",\"fallback\": \"missing source\"}",
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore2\",\"fallback\": \"missing source\"}",
-                "{\"text\": \" \"}",
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore3\",\"fallback\": \"missing source\"}",
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore4\",\"fallback\": \"missing source\"}",
-                "{\"text\": \" \"}",
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore5\",\"fallback\": \"missing source\"}",
-                "{\"translate\": \"item.soul_alchemy.xp_siphon.condenser.lore6\",\"fallback\": \"missing source\"}"
-            ],
             "item_model": "soul_alchemy:siphon_condenser",
             "enchantment_glint_override": true,
             "consumable": {
