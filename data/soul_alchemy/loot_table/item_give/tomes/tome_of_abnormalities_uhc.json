@@ -23,7 +23,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Strength\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.strength",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -54,7 +70,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Weakness\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.weakness",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -98,7 +130,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Resistance\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.resistance",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.7"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -129,7 +177,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Fire Resistance\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.fire_resistance",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -173,7 +237,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Speed\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.speed",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -204,7 +284,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Slowness\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.slowness",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.8"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -248,7 +344,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n   Jump Boost\n\n   ",
+                      "text": "\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.jump_boost",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -279,7 +391,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Levitation\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.levitation",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -310,7 +438,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Slow Falling\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.slow_falling",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -354,7 +498,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Dolphin's Grace\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.dolphins_grace",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.2"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -385,7 +545,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Water Breathing\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.water_breathing",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -429,7 +605,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Invisibility\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.invisibility",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -473,7 +665,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Glowing\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.glowing",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.3"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -530,7 +738,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Haste\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.haste",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.8"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -574,7 +798,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Mining Fatigue\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.mining_fatigue",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.6"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -631,7 +871,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n   Night Vision\n\n   ",
+                      "text": "\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.night_vision",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -675,7 +931,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Blindness\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.blindness",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -719,7 +991,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Darkness\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.darkness",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -763,7 +1051,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n   Regeneration\n\n   ",
+                      "text": "\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.regeneration",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.8"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -803,12 +1107,25 @@
                       }
                     },
                     {
-                      "text": "\n\n   Poison\n\n   ",
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
                     {
-                      "text": "\uEEA9"
+                      "translate": "effect.minecraft.poison",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.7"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
                     },
                     {
                       "text": "\uEE8F",
@@ -837,12 +1154,25 @@
                       }
                     },
                     {
-                      "text": "\n\n   Wither\n\n   ",
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
                     {
-                      "text": "\uEEA9"
+                      "translate": "effect.minecraft.wither",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.10"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
                     },
                     {
                       "text": "\uEE91",
@@ -884,7 +1214,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Hunger\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.hunger",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -928,12 +1274,25 @@
                       }
                     },
                     {
-                      "text": "\n\n   Nausea\n\n   ",
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
                     {
-                      "text": "\uEEA9"
+                      "translate": "effect.minecraft.nausea",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.4"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
                     },
                     {
                       "text": "\uEEA2",
@@ -975,7 +1334,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Weaving\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.weaving",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -1019,7 +1394,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Wind Charged\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.wind_charged",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -1076,7 +1467,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Oozing\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.oozing",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.1"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -1120,7 +1527,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Infested\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.infested",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.2"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -1177,7 +1600,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n\n\n   Raid Omen\n\n   ",
+                      "text": "\n\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.raid_omen",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.8"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -1208,7 +1647,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Trial Omen\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "effect.minecraft.trial_omen",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },

@@ -23,7 +23,23 @@
                   "text": "\uEE0D",
                   "extra": [
                     {
-                      "text": "\n   Grounded\n\n   ",
+                      "text": "\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "info.soul_alchemy.prohibition.grounded",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.20"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -54,7 +70,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Broken Idols\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "info.soul_alchemy.prohibition.broken_idols",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
@@ -85,7 +117,23 @@
                       }
                     },
                     {
-                      "text": "\n\n   Heavy Armor\n\n   ",
+                      "text": "\n\n   ",
+                      "font": "minecraft:default",
+                      "color": "black"
+                    },
+                    {
+                      "translate": "info.soul_alchemy.prohibition.encumberance",
+                      "font": "minecraft:default",
+                      "color": "black",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": {
+                          "translate": "info.soul_alchemy.misc_tome.soul_price.5"
+                        }
+                      }
+                    },
+                    {
+                      "text": "\n\n   ",
                       "font": "minecraft:default",
                       "color": "black"
                     },
