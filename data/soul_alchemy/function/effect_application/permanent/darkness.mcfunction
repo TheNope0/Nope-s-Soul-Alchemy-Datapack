@@ -4,5 +4,6 @@ execute if entity @s[tag=permanent_blindness] run return run tellraw @s {"transl
 
 
 scoreboard players add @s npe_soul_points 5
+scoreboard players add @s npe_perma_effect_misc 1
 tellraw @s {"translate": "info.soul_alchemy.effect_permanent","color": "gray"}
 tag @s add permanent_darkness

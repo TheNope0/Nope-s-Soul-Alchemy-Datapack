@@ -29,4 +29,6 @@ scoreboard players set @s npe_current_hunger 10
 
 scoreboard players set @s npe_hra_scoreboard 0
 
+scoreboard players set @s npe_perma_effect_misc 0
+
 scoreboard players enable @s npe_tome_button_trigger

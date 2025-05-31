@@ -8,5 +8,6 @@ execute if entity @s[tag=deactivate_regeneration] run return run tag @s remove d
 
 
 execute if entity @s[tag=permanent_regeneration] run scoreboard players add @s npe_soul_points 8
+execute if entity @s[tag=permanent_regeneration] run scoreboard players remove @s npe_perma_effect_misc 1
 execute if entity @s[tag=permanent_regeneration] run tellraw @s {"translate": "info.soul_alchemy.effect_normal","color": "gray"}
 execute if entity @s[tag=permanent_regeneration] run return run tag @s remove permanent_regeneration

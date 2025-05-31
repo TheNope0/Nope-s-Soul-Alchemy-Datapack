@@ -2,11 +2,13 @@ execute if entity @s[tag=permanent_oozing] run return run tellraw @s {"translate
 
 
 execute if entity @s[tag=deactivate_oozing] run scoreboard players add @s npe_soul_points 2
+execute if entity @s[tag=deactivate_oozing] run scoreboard players add @s npe_perma_effect_misc 1
 execute if entity @s[tag=deactivate_oozing] run tellraw @s {"translate": "info.soul_alchemy.effect_permanent","color": "gray"}
 execute if entity @s[tag=deactivate_oozing] run tag @s add permanent_oozing
 execute if entity @s[tag=deactivate_oozing] run return run tag @s remove deactivate_oozing
 
 
 scoreboard players add @s npe_soul_points 1
+scoreboard players add @s npe_perma_effect_misc 1
 tellraw @s {"translate": "info.soul_alchemy.effect_permanent","color": "gray"}
 tag @s add permanent_oozing

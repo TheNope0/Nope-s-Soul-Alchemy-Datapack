@@ -1,6 +1,7 @@
 
 scoreboard objectives add npe_xp_level xp
 scoreboard objectives add npe_absorption_refresh dummy
+scoreboard objectives add npe_perma_effect_misc dummy
 
 scoreboard objectives add npe_xp_basic_cooldown dummy
 scoreboard objectives add npe_xp_advanced_cooldown dummy
