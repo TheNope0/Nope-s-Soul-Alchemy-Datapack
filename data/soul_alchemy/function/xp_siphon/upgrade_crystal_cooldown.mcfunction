@@ -4,6 +4,7 @@ execute if score @s npe_upgrade_crystal_cooldown matches 2.. run return run scor
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_efficiency
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_feather_falling
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_mending
+advancement revoke @s only soul_alchemy:unspoken/siphon/uc_mending_book
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_quick_charge
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_respiration
 advancement revoke @s only soul_alchemy:unspoken/siphon/uc_sweeping_edge
