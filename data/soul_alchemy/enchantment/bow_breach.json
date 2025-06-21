@@ -1,7 +1,7 @@
 {
   "anvil_cost": 5,
   "description": {
-    "translate": "enchantment.soul_alchemy.bow_breach"
+    "translate": "enchantment.soul_alchemy.breach_bow"
   },
   "effects": {
     "minecraft:armor_effectiveness": [
