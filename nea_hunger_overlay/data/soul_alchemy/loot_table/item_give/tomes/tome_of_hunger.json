@@ -24,7 +24,7 @@
               "function": "minecraft:set_written_book_pages",
               "pages": [
                 {
-                  "text": "\uEE07",
+                  "text": "\uEE0E",
                   "extra": [
                     {
                       "text": "\n\n\n    ",
