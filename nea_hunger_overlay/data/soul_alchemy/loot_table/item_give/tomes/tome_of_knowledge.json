@@ -219,6 +219,22 @@
                   "font": "soul_alchemy:tome_pages"
                 },
                 {
+                  "text": "\uEE1F",
+                  "extra": [
+                    {
+                      "text": "\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "translate": "item.soul_alchemy.tome.hunger_tome",
+                      "color": "black",
+                      "font": "minecraft:default"
+                    }
+                  ],
+                  "color": "white",
+                  "font": "soul_alchemy:tome_pages"
+                },
+                {
                   "text": "\uEE1A",
                   "extra": [
                     {
