@@ -36,9 +36,7 @@
                     "equipment": {
                       "mainhand": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
@@ -70,6 +68,7 @@
       },
       
       
+
       {
         "requirements": [
           {
@@ -84,9 +83,7 @@
                     "equipment": {
                       "offhand": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
@@ -117,6 +114,7 @@
         }
       },
       
+
       
       {
         "requirements": [
@@ -132,9 +130,7 @@
                     "equipment": {
                       "head": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
@@ -166,6 +162,7 @@
       },
       
       
+
       {
         "requirements": [
           {
@@ -180,9 +177,7 @@
                     "equipment": {
                       "chest": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
@@ -214,6 +209,7 @@
       },
       
       
+
       {
         "requirements": [
           {
@@ -228,9 +224,7 @@
                     "equipment": {
                       "legs": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
@@ -262,6 +256,7 @@
       },
       
       
+
       {
         "requirements": [
           {
@@ -276,9 +271,7 @@
                     "equipment": {
                       "feet": {
                         "components": {
-                          "unbreakable": {
-                            "show_in_tooltip": false
-                          }
+                          "unbreakable": {}
                         }
                       }
                     }
