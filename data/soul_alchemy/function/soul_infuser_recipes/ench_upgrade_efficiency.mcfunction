@@ -4,4 +4,4 @@ item modify block ~ ~ ~ container.9 {function:"set_count",add:true,count:-2}
 item modify block ~ ~ ~ container.10 {function:"set_count",add:true,count:-1}
 item modify block ~ ~ ~ container.18 {function:"set_count",add:true,count:-1}
 
-loot replace block ~ ~ ~ container.13 loot soul_alchemy:item_give/upgrade_crystals/uc_efficiency
+item modify block ~ ~ ~ container.13 {"function": "set_enchantments","enchantments": {"minecraft:efficiency": 8}}
