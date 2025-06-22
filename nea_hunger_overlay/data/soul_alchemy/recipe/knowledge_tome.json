@@ -1,0 +1,137 @@
+{
+    "type": "crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "imi",
+        "mBm",
+        "imi"
+    ],
+    "key": {
+        "B": "minecraft:book",
+        "i": "minecraft:iron_nugget",
+        "m": "#soul_alchemy:common_mob_drops"
+    },
+    "result": {
+        "count": 1,
+        "id": "written_book",
+        "components": {
+            "rarity": "uncommon",
+            "item_name": "{\"fallback\":\"Tome of Knowledge\",\"translate\":\"item.soul_alchemy.tome.knowledge_tome\"}",
+            "item_model": "soul_alchemy:tome_of_knowledge",
+            "written_book_content": {
+                "pages": [
+                    {
+                      "raw": "{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n    \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"info.soul_alchemy.crafting_recipe_page.1\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n    \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"info.soul_alchemy.crafting_recipe_page.2\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.insight_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.strength_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.speed_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.jump_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.hearts_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.absorption_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.armor_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.toughness_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.knockback_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.reach_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.hunger_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\\uEE1F\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.water_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.luck_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.height_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"item.minecraft.potion\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.misc_effect_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.tome.prohibition_tome\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n    \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"info.soul_alchemy.crafting_recipe_page.18\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.5\"}],\"translate\":\"enchantment.minecraft.efficiency\"}},\"text\":\"\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.efficiency\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.8\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.4\"}],\"translate\":\"enchantment.minecraft.feather_falling\"}},\"text\":\"\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"item.minecraft.potion.effect.slow_falling\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.feather_falling\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.5\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.3\"}],\"translate\":\"enchantment.minecraft.quick_charge\"}},\"text\":\"\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.quick_charge\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.4\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.3\"}],\"translate\":\"enchantment.minecraft.sweeping_edge\"}},\"text\":\"\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.sweeping_edge\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.4\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.3\"}],\"translate\":\"enchantment.minecraft.respiration\"}},\"text\":\"\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.respiration\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.4\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"enchantment.minecraft.mending\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.minecraft.mending\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.2\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n    \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"info.soul_alchemy.crafting_recipe_page.25\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"enchantment.minecraft.silk_touch\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.soul_shearing\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"translate\":\"enchantment.minecraft.silk_touch\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.advanced_silk_touch\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.1\"},\" ~ \",{\"translate\":\"enchantment.level.4\"}],\"translate\":\"enchantment.minecraft.breach\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.breach_bow\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.1\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.1\"},\" ~ \",{\"translate\":\"enchantment.level.4\"}],\"translate\":\"enchantment.minecraft.protection\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.reinforced_wings\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.1\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.1\"},\" ~ \",{\"translate\":\"enchantment.level.4\"}],\"translate\":\"enchantment.minecraft.protection\"}},\"text\":\"\"},{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.kinetic_dampener\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"text\":\" \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.level.1\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"hoverEvent\":{\"action\":\"show_text\",\"contents\":{\"extra\":[\" \",{\"translate\":\"enchantment.level.3\"},\"\n\",{\"translate\":\"enchantment.minecraft.mending\"},\" \",{\"translate\":\"enchantment.level.2\"}],\"translate\":\"enchantment.minecraft.unbreaking\"}},\"text\":\"\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"enchantment.soul_alchemy.unbreakable\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\n    \"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"info.soul_alchemy.crafting_recipe_page.32\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.spawn_point\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"item.soul_alchemy.spawn_point\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    },
+                    {
+                      "raw":"{\"color\":\"white\",\"extra\":[{\"font\":\"minecraft:default\",\"text\":\"\n\"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n            \"},\"\",{\"font\":\"minecraft:default\",\"text\":\"\n\n\n\n\n\n\n\"},{\"color\":\"black\",\"font\":\"minecraft:default\",\"translate\":\"block.soul_alchemy.hardcore_respawn_anchor\"}],\"font\":\"soul_alchemy:tome_pages\",\"text\":\"\"}"
+                    }
+                ],
+                "author": "",
+                "title": ""
+            }
+        }
+    }
+}
