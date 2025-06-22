@@ -293,7 +293,25 @@
                   "text": "\uEE1D",
                   "extra": [
                     {
-                      "text": "\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "text": "\n",
+                      "font": "minecraft:default"
+                    },
+                    {
+                      "text": "\uEE4D"
+                    },
+                    {
+                      "text": "\uEE4E",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": [
+                          {
+                            "translate": "item.minecraft.potion"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\n\n\n\n\n\n\n\n\n\n\n",
                       "font": "minecraft:default"
                     },
                     {
@@ -413,6 +431,20 @@
                           },
                           {
                             "translate": "enchantment.level.4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "text": "\uEE4E"
+                    },
+                    {
+                      "text": "\uEE4E",
+                      "hoverEvent": {
+                        "action": "show_text",
+                        "contents": [
+                          {
+                            "translate": "item.minecraft.potion.effect.slow_falling"
                           }
                         ]
                       }
