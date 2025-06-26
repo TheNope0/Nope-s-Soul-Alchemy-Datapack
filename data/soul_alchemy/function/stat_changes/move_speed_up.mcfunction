@@ -12,16 +12,16 @@ scoreboard players set @s npe_changed_stat 1
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s movement_speed base set 0.004
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s step_height base set 0.1
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.9 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.9 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -25 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -24
 
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run attribute @s movement_speed base set 0.008
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.8 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.8 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -24 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -23
 
@@ -29,24 +29,24 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s movement_speed base set 0.012
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s step_height base set 0.2
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.7 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.7 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -23 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -22
 
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run attribute @s movement_speed base set 0.016
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.6 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.6 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -22 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -21
 
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run attribute @s movement_speed base set 0.02
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.5 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.5 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -21 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -20
 
@@ -60,8 +60,8 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run attribute @s movement_speed base set 0.028
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.4 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.4 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -19 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -18
 
@@ -75,8 +75,8 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run attribute @s movement_speed base set 0.036
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.3 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.3 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -17 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -16
 
@@ -90,8 +90,8 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run attribute @s movement_speed base set 0.044
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.2 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.2 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -15 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -14
 
@@ -105,8 +105,8 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run attribute @s movement_speed base set 0.052
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run attribute @s jump_strength modifier add 5263ade9-e87c-41f4-90a7-abd9e4e71a91 -0.1 add_multiplied_total
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run attribute @s jump_strength modifier remove move_speed_jump_nerf
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run attribute @s jump_strength modifier add move_speed_jump_nerf -0.1 add_multiplied_total
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -13 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -12
 
@@ -119,7 +119,7 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -11 run attribute @s movement_speed base set 0.06
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -11 run attribute @s jump_strength modifier remove 5263ade9-e87c-41f4-90a7-abd9e4e71a91
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -11 run attribute @s jump_strength modifier remove move_speed_jump_nerf
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_move_speed matches -11 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_move_speed -10
 

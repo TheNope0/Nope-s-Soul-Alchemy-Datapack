@@ -17,7 +17,7 @@ execute if score @s npe_changed_stat matches 0 run return run scoreboard players
 
 
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_jump_boost matches 1 run attribute @s jump_strength base set 0.42
-execute if score @s npe_changed_stat matches 1 if score @s npe_current_jump_boost matches 1 run attribute @s step_height modifier remove d86b783e-fb1b-4ba9-aba9-22ef2b1642dd
+execute if score @s npe_changed_stat matches 1 if score @s npe_current_jump_boost matches 1 run attribute @s step_height modifier remove jump_height_step_height_nerf
 execute if score @s npe_changed_stat matches 1 if score @s npe_current_jump_boost matches 1 run scoreboard players set @s npe_changed_stat 0
 execute if score @s npe_changed_stat matches 0 run return run scoreboard players set @s npe_current_jump_boost 2
 
