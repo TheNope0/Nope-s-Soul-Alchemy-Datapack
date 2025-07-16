@@ -36,7 +36,9 @@
                     "equipment": {
                       "mainhand": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
@@ -83,7 +85,9 @@
                     "equipment": {
                       "offhand": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
@@ -130,7 +134,9 @@
                     "equipment": {
                       "head": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
@@ -177,7 +183,9 @@
                     "equipment": {
                       "chest": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
@@ -224,7 +232,9 @@
                     "equipment": {
                       "legs": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
@@ -271,7 +281,9 @@
                     "equipment": {
                       "feet": {
                         "components": {
-                          "unbreakable": {}
+                          "custom_data": {
+                            "unbreakable": 1
+                          }
                         }
                       }
                     }
