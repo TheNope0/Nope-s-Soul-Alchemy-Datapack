@@ -8,4 +8,4 @@ scoreboard players set @p[distance=..2,gamemode=spectator] npe_hra_scoreboard 12
 tag @s add respawning
 tag @p[distance=..2,gamemode=spectator] add respawning
 
-execute as @p[distance=..2,gamemode=spectator] at @s run advancement revoke @s only soul_alchemy:unspoken/hra_anim
+execute as @p[distance=..2,gamemode=spectator] run advancement revoke @s only soul_alchemy:unspoken/hra_anim
