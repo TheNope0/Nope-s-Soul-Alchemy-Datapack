@@ -36,10 +36,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_soul_points"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.SoulPoints",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -81,10 +80,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_math_speed"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.MoveSpeed",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -131,10 +129,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_current_hearts"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.PlayerHearts",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -176,10 +173,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_current_armor"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.PlayerArmor",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -193,10 +189,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_current_armor_toughness"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.PlayerArmorToughness",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -210,10 +205,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_math_height"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.PlayerScale",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },
@@ -410,10 +404,9 @@
           "font": "minecraft:default"
         },
         {
-          "score": {
-            "name": "@s",
-            "objective": "npe_math_luck"
-          },
+          "storage": "soul_alchemy:tome_of_insight",
+          "nbt": "TomeOfInsight.PlayerLuck",
+          "source": "storage",
           "color": "black",
           "font": "minecraft:default"
         },

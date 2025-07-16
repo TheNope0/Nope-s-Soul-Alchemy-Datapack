@@ -17,9 +17,13 @@ scoreboard players operation @s npe_math_speed *= .tempMathFunc. npe_math_tempor
 scoreboard players set .tempMathFunc. npe_math_temporary 100
 scoreboard players operation @s npe_math_speed += .tempMathFunc. npe_math_temporary
 
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.MoveSpeed int 1 run scoreboard players get @s npe_math_speed
+
 
 
 scoreboard players operation @s npe_math_height += .tempMathFunc. npe_math_temporary
+
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.PlayerScale int 1 run scoreboard players get @s npe_math_height
 
 
 
@@ -77,6 +81,8 @@ execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.KnockBac
 scoreboard players set .tempMathFunc. npe_math_temporary 25
 scoreboard players operation @s npe_math_luck *= .tempMathFunc. npe_math_temporary
 
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.PlayerLuck int 1 run scoreboard players get @s npe_math_luck
+
 
 
 scoreboard players set .tempMathFunc. npe_math_temporary 9
@@ -117,6 +123,13 @@ execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.OxygenBo
 scoreboard players set .tempMathFunc. npe_math_temporary 1
 scoreboard players operation @s npe_math_underwater += .tempMathFunc. npe_math_temporary
 execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.WaterMiningSpeed int 20 run scoreboard players get @s npe_math_underwater
+
+
+
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.SoulPoints int 1 run scoreboard players get @s npe_soul_points
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.PlayerHearts int 1 run scoreboard players get @s npe_current_hearts
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.PlayerArmor int 1 run scoreboard players get @s npe_current_armor
+execute store result storage soul_alchemy:tome_of_insight TomeOfInsight.PlayerArmorToughness int 1 run scoreboard players get @s npe_current_armor_toughness
 
 
 
