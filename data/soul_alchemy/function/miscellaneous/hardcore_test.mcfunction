@@ -8,3 +8,5 @@ execute if score .ULTRAHARDCORE?. npe_difficulty matches 1 run scoreboard player
 execute if score .ULTRAHARDCORE?. npe_difficulty matches 0 run scoreboard players set .WORLDDIFFICULTY. npe_difficulty 5
 
 say hardcore
+
+gamerule spectatorsGenerateChunks true
