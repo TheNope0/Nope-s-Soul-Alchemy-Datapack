@@ -5,6 +5,7 @@ execute at @s if items block ~ ~ ~ container.5 * positioned ~ ~ ~ run function s
 execute at @s if items block ~ ~ ~ container.6 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 6}
 execute at @s if items block ~ ~ ~ container.7 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 7}
 execute at @s if items block ~ ~ ~ container.11 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 11}
+execute at @s if items block ~ ~ ~ container.11 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 12}
 execute at @s if items block ~ ~ ~ container.15 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 15}
 execute at @s if items block ~ ~ ~ container.16 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 16}
 execute at @s if items block ~ ~ ~ container.17 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 17}
@@ -16,9 +17,8 @@ execute at @s if items block ~ ~ ~ container.24 * positioned ~ ~ ~ run function 
 execute at @s if items block ~ ~ ~ container.25 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 25}
 execute at @s if items block ~ ~ ~ container.26 * positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 26}
 
-execute at @s unless items block ~ ~ ~ container.12 stick[custom_data={not_an_item:1b}] positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 12}
-execute at @s unless items block ~ ~ ~ container.14 stick[custom_data={not_an_item:1b}] positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 14}
+execute at @s if items block ~ ~ ~ container.14 * unless items block ~ ~ ~ container.14 stick[minecraft:custom_data={not_an_item:1b}] positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_air_prevent_slots {slot: 14}
 
 
 
-execute at @s unless items block ~ ~ ~ container.8 stick[custom_data={not_an_item:1b}] positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_8_prevent_slots
+execute at @s unless items block ~ ~ ~ container.8 stick[minecraft:custom_data={not_an_item:1b}] positioned ~ ~ ~ run function soul_alchemy:soul_infuser_alt/macro_8_prevent_slots
