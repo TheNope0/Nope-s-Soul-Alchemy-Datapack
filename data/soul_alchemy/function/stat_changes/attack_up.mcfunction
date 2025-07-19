@@ -3,7 +3,7 @@ execute unless score @s npe_soul_points matches 3.. run return run tellraw @s {"
 
 execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~
 tellraw @s [{"text":"+1 ","color": "dark_green"},{"text":"\uEE00","font": "soul_alchemy:chat_mojo","color": "white"}]
-scoreboard players remove @s npe_soul_points 3
+scoreboard players remove @s npe_soul_points 2
 scoreboard players set @s npe_changed_stat 1
 
 
