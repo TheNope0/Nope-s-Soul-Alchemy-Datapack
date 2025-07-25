@@ -1,6 +1,10 @@
 
 scoreboard objectives add npe_deaths_hardcore minecraft.custom:time_since_death
-scoreboard objectives add npe_xp_level xp
+
+scoreboard objectives add npe_xp_level dummy
+scoreboard objectives add npe_dummy_xp_levels dummy
+scoreboard objectives add npe_dummy_xp_points dummy
+
 scoreboard objectives add npe_absorption_refresh dummy
 scoreboard objectives add npe_perma_effect_misc dummy
 

@@ -5,6 +5,9 @@ execute at @a[scores={npe_spawner_check=1..}] run function soul_alchemy:advanced
 scoreboard players remove @a[scores={npe_spawner_check=1..}] npe_spawner_check 1
 
 
+execute as @a at @s run function soul_alchemy:miscellaneous/calculate_experience_base
+
+
 execute as @e[type=armor_stand,tag=soul_infuser] at @s run function soul_alchemy:soul_infuser_alt/spawn_soul_infuser
 execute as @e[type=item_display,tag=soul_infuser] at @s unless predicate soul_alchemy:not_a_barrel run function soul_alchemy:soul_infuser_alt/break_soul_infuser
 
