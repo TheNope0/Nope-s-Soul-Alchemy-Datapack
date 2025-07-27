@@ -16,4 +16,4 @@ execute if score .SSDurabilityChange. npe_ultra_dummy matches 1428 if predicate 
 execute if score .SSDurabilityChange. npe_ultra_dummy matches 1428 if predicate soul_alchemy:soul_shears run playsound entity.item.break player @s ~ ~ ~
 
 scoreboard players remove @s npe_soul_points 1
-loot give @s loot soul_alchemy:item_give/soul_shard
+execute at @s run loot spawn ~ ~ ~ loot soul_alchemy:item_give/soul_shard

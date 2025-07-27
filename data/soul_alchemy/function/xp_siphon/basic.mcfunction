@@ -6,4 +6,4 @@ execute if score @s npe_xp_level matches ..159 run scoreboard players add @s npe
 execute if score @s npe_xp_level matches ..159 run return run tellraw @s {"translate": "info.soul_alchemy.not_enough_xp","color": "red"}
 
 xp add @s -160
-loot give @s loot soul_alchemy:item_give/experience_vial
+execute at @s run loot spawn ~ ~ ~ loot soul_alchemy:item_give/experience_vial
