@@ -18,6 +18,7 @@
                                     "consume_seconds": 2147483647,
                                     "has_consume_particles": false
                                 },
+                                "!food":{},
                                 "custom_data": {
                                     "soul_shard": 1
                                 }
