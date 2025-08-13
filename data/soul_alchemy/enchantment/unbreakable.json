@@ -8,6 +8,7 @@
     "any"
   ],
   "supported_items": "#minecraft:enchantable/durability",
+  "exclusive_set": "#soul_alchemy:exclusive_set/unbreakable",
   "max_level": 1,
   "anvil_cost": 20,
   "min_cost": {
@@ -35,7 +36,7 @@
                   "predicate": {
                     "equipment": {
                       "mainhand": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -51,10 +52,12 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }
@@ -84,7 +87,7 @@
                   "predicate": {
                     "equipment": {
                       "offhand": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -100,10 +103,12 @@
                 "predicate": {
                   "equipment": {
                     "offhand": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }
@@ -133,7 +138,7 @@
                   "predicate": {
                     "equipment": {
                       "head": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -149,10 +154,12 @@
                 "predicate": {
                   "equipment": {
                     "head": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }
@@ -182,7 +189,7 @@
                   "predicate": {
                     "equipment": {
                       "chest": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -198,10 +205,12 @@
                 "predicate": {
                   "equipment": {
                     "chest": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }
@@ -231,7 +240,7 @@
                   "predicate": {
                     "equipment": {
                       "legs": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -247,10 +256,12 @@
                 "predicate": {
                   "equipment": {
                     "legs": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }
@@ -280,7 +291,7 @@
                   "predicate": {
                     "equipment": {
                       "feet": {
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "unbreakable": 1
                           }
@@ -296,10 +307,12 @@
                 "predicate": {
                   "equipment": {
                     "feet": {
-                      "components": {
-                        "enchantments": {
-                          "soul_alchemy:unbreakable": 1
-                        }
+                      "predicates": {
+                        "enchantments": [
+                          {
+                            "enchantments": "soul_alchemy:unbreakable"
+                          }
+                        ]
                       }
                     }
                   }

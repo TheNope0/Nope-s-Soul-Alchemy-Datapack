@@ -35,7 +35,7 @@
                     "equipment": {
                       "mainhand": {
                         "items": "minecraft:shears",
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "has_soul_shearing_enchant": 1
                           }
@@ -86,7 +86,7 @@
                     "equipment": {
                       "mainhand": {
                         "items": "minecraft:shears",
-                        "components": {
+                        "predicates": {
                           "custom_data": {
                             "has_soul_shearing_enchant": 1
                           }
@@ -103,7 +103,7 @@
                   "equipment": {
                     "mainhand": {
                       "items": "minecraft:shears",
-                      "components": {
+                      "predicates": {
                         "custom_data": {
                           "soul_shears":1
                         }
