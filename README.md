@@ -27,16 +27,19 @@ Some other things introduced in this pack include:
     * Additionally, if the "Not Enough Attributes: Hunger" mod is installed, The Tome of Hunger can be used, which allows the player to change their max amount of hunger haunches
 * A custom crafter used to create most of the items this pack introduces
 * Experience Siphons, which, when used, creates Experience Vials, Flasks, and Beakers that hold 10, 20, and 30 levels respectively. These experience items can either be used for storage or used as a crafting recipe for certain other items
-* Portable Spawn Points are items that can be used to temporarily set the player's spawn point to a specific location, Single spawn points can only be used once, while Infinite spawn points can be used an infinite amount of times
+* Portable Spawn Points are items that can be used to temporarily set the player's spawn point to a specific location, Single spawn points can only be used once, while Infinite spawn points can be used an infinite amount of times (Admittedly pretty obvious).
 * Hardcore Respawn Anchors can only be used in Hardcore mode, but can allow the player to respawn once per anchor
 * Soul Shears, an upgrade to regular shears with 6x the base durability, and better compatibility with a certain enchantment
 * Six custom enchantments that each have various purposes
-    * The Soul Shearing enchantment is applied to shears, and specifically allows the player to use it to convert unallocated Soul Points into Soul Shards, physical items the player can either use in custom crafting recipes
+    * The Soul Shearing enchantment is applied to shears, and specifically allows the player to use it to convert unallocated Soul Points into Soul Shards, physical items the player can either use in custom crafting recipes, or in multiplayer, trade between players.
     * Advanced Silk Touch allows the player to be able to pick up additional blocks that regular silk touch cannot pick up, namely Reinforced Deepslate, Budding Amethyst, and Monster Spawners, along with a couple other things
-    * Breaching Arrows is essentially the breach enchantment, but for Bows, this version is slightly nerfed in its ability, and can only go up to level III
+    * Breaching Arrows is essentially the breach enchantment, but for Bows. This version is slightly nerfed in its main ability, only ignoring 8% armor per level instead of 15%, and can only go up to level III.
     * Reinforced Wings is an enchantment that gives the elytra a little bit of armor and a small amount of the protection enchantment. This enchantment at max will only have leather effectiveness of protection.
-    * Kinetic Dampener is another elytra enchantment that specifically protects against the fly into wall damage type, and has a similar effectiveness as the Feather Falling enchantment
-    * Unbreakable is an enchantment that makes any durability item it is applied to unbreakable, as well as making the item immune to damage such as explosions or lava
+    * Kinetic Dampener is another elytra enchantment that specifically protects against damage from flying into walls, and has a similar effectiveness as the Feather Falling enchantment
+    * Unbreakable is an enchantment that makes any durability item it is applied to unbreakable, as well as making the item immune to outside damage such as explosions or lava (though for obvious reasons, it is not immune to void damage)
 * Six additional crafting recipes increase the enchantment level of certain existing vanilla enchantments, which include Efficiency 8, Feather Falling 5, Respiration 4, Quick Charge 4, Sweeping Edge 4, and Mending 2
 
-* Several advancements are added that, when achieved, increase each players' amount of Soul Points
+* Several advancements are also added that, when achieved, increase each players' amount of total Soul Points
+
+
+This Datapack is still a WIP and might or might not need major balancing with help from outside testers.
