@@ -10,13 +10,13 @@
   "supported_items": "#minecraft:enchantable/durability",
   "exclusive_set": "#soul_alchemy:exclusive_set/unbreakable",
   "max_level": 1,
-  "anvil_cost": 20,
+  "anvil_cost": 30,
   "min_cost": {
-    "base": 15,
+    "base": -99999,
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 65,
+    "base": -99999,
     "per_level_above_first": 0
   },
   "effects": {

@@ -5,7 +5,6 @@
   },
   "supported_items": "#minecraft:enchantable/mining_loot",
   "exclusive_set": "#soul_alchemy:exclusive_set/advanced_silk_touch",
-  "anvil_cost": 12,
   "effects": {
     "minecraft:block_experience": [
       {
@@ -24,12 +23,13 @@
       }
     ]
   },
+  "anvil_cost": 15,
   "min_cost": {
-    "base": 15,
+    "base": -99999,
     "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 65,
+    "base": -99999,
     "per_level_above_first": 0
   },
   "max_level": 1,

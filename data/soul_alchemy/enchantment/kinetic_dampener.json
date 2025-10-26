@@ -8,14 +8,14 @@
   ],
   "supported_items": "minecraft:elytra",
   "max_level": 4,
-  "anvil_cost": 12,
+  "anvil_cost": 8,
   "min_cost": {
-    "base": 20,
-    "per_level_above_first": 5
+    "base": -99999,
+    "per_level_above_first": 0
   },
   "max_cost": {
-    "base": 65,
-    "per_level_above_first": 15
+    "base": -99999,
+    "per_level_above_first": 0
   },
   "effects": {
     "damage_protection": [

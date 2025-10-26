@@ -1,5 +1,4 @@
 {
-  "anvil_cost": 5,
   "description": {
     "translate": "enchantment.soul_alchemy.breach_bow"
   },
@@ -17,14 +16,15 @@
       }
     ]
   },
-  "max_cost": {
-    "base": 65,
-    "per_level_above_first": 9
-  },
   "max_level": 3,
+  "anvil_cost": 12,
   "min_cost": {
-    "base": 15,
-    "per_level_above_first": 9
+    "base": -99999,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": -99999,
+    "per_level_above_first": 0
   },
   "slots": [
     "mainhand"
