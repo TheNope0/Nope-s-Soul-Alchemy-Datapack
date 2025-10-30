@@ -1,0 +1,16 @@
+execute if score @s npe_current_damage matches -6 run return run attribute @s attack_damage base set -6
+execute if score @s npe_current_damage matches -5 run return run attribute @s attack_damage base set -5
+execute if score @s npe_current_damage matches -4 run return run attribute @s attack_damage base set -4
+execute if score @s npe_current_damage matches -3 run return run attribute @s attack_damage base set -3
+execute if score @s npe_current_damage matches -2 run return run attribute @s attack_damage base set -2
+execute if score @s npe_current_damage matches -1 run return run attribute @s attack_damage base set -1
+execute if score @s npe_current_damage matches 0 run return run attribute @s attack_damage base set 0
+execute if score @s npe_current_damage matches 2 run return run attribute @s attack_damage base set 2
+execute if score @s npe_current_damage matches 3 run return run attribute @s attack_damage base set 3
+execute if score @s npe_current_damage matches 4 run return run attribute @s attack_damage base set 4
+execute if score @s npe_current_damage matches 5 run return run attribute @s attack_damage base set 5
+execute if score @s npe_current_damage matches 6 run return run attribute @s attack_damage base set 6
+execute if score @s npe_current_damage matches 7 run return run attribute @s attack_damage base set 7
+execute if score @s npe_current_damage matches 8 run return run attribute @s attack_damage base set 8
+execute if score @s npe_current_damage matches 9 run return run attribute @s attack_damage base set 9
+execute if score @s npe_current_damage matches 10 run return run attribute @s attack_damage base set 10

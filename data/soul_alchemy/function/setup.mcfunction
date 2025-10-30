@@ -23,6 +23,7 @@ scoreboard objectives add npe_soul_shard_cooldown dummy
 scoreboard objectives add npe_spoint_port_cooldown dummy
 
 scoreboard objectives add npe_ultra_dummy dummy
+scoreboard objectives add npe_leave_game minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add npe_spawner_check minecraft.used:minecraft.spawner
 

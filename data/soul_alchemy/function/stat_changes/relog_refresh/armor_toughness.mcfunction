@@ -1,0 +1,13 @@
+execute if score @s npe_current_armor_toughness matches -8 run return run attribute @s armor_toughness base set -8
+execute if score @s npe_current_armor_toughness matches -7 run return run attribute @s armor_toughness base set -7
+execute if score @s npe_current_armor_toughness matches -6 run return run attribute @s armor_toughness base set -6
+execute if score @s npe_current_armor_toughness matches -5 run return run attribute @s armor_toughness base set -5
+execute if score @s npe_current_armor_toughness matches -4 run return run attribute @s armor_toughness base set -4
+execute if score @s npe_current_armor_toughness matches -3 run return run attribute @s armor_toughness base set -3
+execute if score @s npe_current_armor_toughness matches -2 run return run attribute @s armor_toughness base set -2
+execute if score @s npe_current_armor_toughness matches -1 run return run attribute @s armor_toughness base set -1
+execute if score @s npe_current_armor_toughness matches 1 run return run attribute @s armor_toughness base set 1
+execute if score @s npe_current_armor_toughness matches 2 run return run attribute @s armor_toughness base set 2
+execute if score @s npe_current_armor_toughness matches 3 run return run attribute @s armor_toughness base set 3
+execute if score @s npe_current_armor_toughness matches 4 run return run attribute @s armor_toughness base set 4
+execute if score @s npe_current_armor_toughness matches 5 run return run attribute @s armor_toughness base set 5

@@ -8,4 +8,8 @@ execute if score .tempMathFunc. npe_perma_effect_misc matches 5.. as @a[scores={
 
 execute as @a[advancements={soul_alchemy:soul_alchemy/undead_research=true,soul_alchemy:soul_alchemy/nether_research=true,soul_alchemy:soul_alchemy/ender_research=true,soul_alchemy:soul_alchemy/aquatic_research=true,soul_alchemy:soul_alchemy/oddities_research=true,soul_alchemy:soul_alchemy/sentients_research=true}] unless entity @s[advancements={soul_alchemy:soul_alchemy/completed_research=true}] run advancement grant @s only soul_alchemy:soul_alchemy/completed_research
 
+execute as @a[scores={npe_leave_game=1..}] run function soul_alchemy:relog_bug_mitigation
+
+
+
 schedule function soul_alchemy:second 1s

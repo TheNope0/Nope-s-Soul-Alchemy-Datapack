@@ -1,0 +1,10 @@
+execute if score @s npe_current_height matches -5 run return run attribute @s scale base set 0.95
+execute if score @s npe_current_height matches -4 run return run attribute @s scale base set 0.96
+execute if score @s npe_current_height matches -3 run return run attribute @s scale base set 0.97
+execute if score @s npe_current_height matches -2 run return run attribute @s scale base set 0.98
+execute if score @s npe_current_height matches -1 run return run attribute @s scale base set 0.99
+execute if score @s npe_current_height matches 1 run return run attribute @s scale base set 1.01
+execute if score @s npe_current_height matches 2 run return run attribute @s scale base set 1.02
+execute if score @s npe_current_height matches 3 run return run attribute @s scale base set 1.03
+execute if score @s npe_current_height matches 4 run return run attribute @s scale base set 1.04
+execute if score @s npe_current_height matches 5 run return run attribute @s scale base set 1.05

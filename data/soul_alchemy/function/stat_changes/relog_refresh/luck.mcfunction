@@ -1,0 +1,12 @@
+execute if score @s npe_current_luck matches -4 run return run attribute @s luck base set -1
+execute if score @s npe_current_luck matches -3 run return run attribute @s luck base set -0.75
+execute if score @s npe_current_luck matches -2 run return run attribute @s luck base set -0.5
+execute if score @s npe_current_luck matches -1 run return run attribute @s luck base set -0.25
+execute if score @s npe_current_luck matches 1 run return run attribute @s luck base set 0.25
+execute if score @s npe_current_luck matches 2 run return run attribute @s luck base set 0.5
+execute if score @s npe_current_luck matches 3 run return run attribute @s luck base set 0.75
+execute if score @s npe_current_luck matches 4 run return run attribute @s luck base set 1
+execute if score @s npe_current_luck matches 5 run return run attribute @s luck base set 1.25
+execute if score @s npe_current_luck matches 6 run return run attribute @s luck base set 1.5
+execute if score @s npe_current_luck matches 7 run return run attribute @s luck base set 1.75
+execute if score @s npe_current_luck matches 8 run return run attribute @s luck base set 2
